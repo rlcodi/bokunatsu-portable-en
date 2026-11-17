@@ -1,0 +1,230 @@
+# k|text   (\n = line break; lines starting with ~ are auto-wrapped to the block's original pixel width)
+## bnn-files/sub/jumbo.bin t2
+0|Sort by date (oldest first)\nSort by date (newest first)\nSort by type (beetles first)\nSort by type (butterflies first)
+1|The specimens have been re-sorted.
+2|From the beetles you had (rhino beetles, stag beetles...),\n　　　choose three Favorites.\n　You can bring them along the next time you play.
+3|Create a Favorites file\nwith this combination?\n　　　　　　Yes　　　No
+4|Keep choosing Favorites?\n　　　　　Yes　　　No
+5|　Faves／BokuＰ０１　is being created.\nDo not remove the Memory Stick™.
+6|A new Favorites file has been created.
+7|No Memory Stick™ is inserted.
+8|Cannot access the Memory Stick™.
+9|Not enough free space on the Memory Stick™.
+10|No save file for this game was found.
+11|No file from a finished game was found.
+12|Failed to read the data.
+13|Failed to write the data.
+14|The Memory Stick™ was removed.
+15|The data is corrupted.
+16|The Memory Stick™ is locked.
+17|No data.
+18|An internal error occurred.
+19|The system entered sleep mode,\nso the operation was canceled.
+## bnn-files/sub/specimen2.bin t4
+128|\n\nEmpty
+129|Delete this?\n　　Yes\n　　No
+130|   Let it go?\n\n\nNo　　　 Yes
+131|Sort by date (oldest first)\nSort by date (newest first)\nSort by type (beetles first)\nSort by type (butterflies first)
+132|The specimens have been re-sorted.
+133|No room in the bug cage.
+134|No room in the Jumbo Box.
+## bnn-files/sub/sumo.dat p5
+0|Release this bug?\nYes\nNo
+## bnn-files/sub/sumo.dat p6
+0|Weak
+1|Strong
+2|King
+## bnn-files/sub/sumo.dat p10
+0|Caught
+1|W-L
+2|△: Tap your bug
+3|Choosing which bug to send out.\n　-Please wait-
+4|　　　Now loading.　　　　\n-Please wait-
+## bnn-files/text/cage.bms
+0|Keep\nLet go
+1|The bug cage is full.　\nGive up on this bug\nPut it in the Jumbo Box
+2|The cage and the Jumbo Box\nare both full.　\n\nRelease some bugs, or make\nthem into specimens,\nto free up some room.
+3|Let it go?\nYes\nNo
+## bnn-files/title/memory.bin p5
+0|~Pick three favorite beetles and make a file so you can bring them along next time.
+1|~View what's in a saved Favorites file.
+2|~Delete a saved Favorites file.
+3|~Send or receive a Favorites file over wireless LAN.
+## bnn-gzx/01startup/startup.bin t7
+0|“０００ ants\n　were wiped out.”
+## bnn-gzx/sub/fishing_tackle.bin p4
+0|Tackle
+1|Summer Catch
+2|~Use bait in the morning and evening.
+3|~Where bites are hard to feel, add a float.
+4|~Use a fly at midday.
+5|~A special fly made from Kenbo's fur. Go for the big one!
+6|Char
+7|Rainbow Trout
+8|Yamame Trout
+## bnn-gzx/sub/item.bin p6
+0|Radio Exercise Card
+1|Souvenir Crackers
+2|Axe
+3|Firecrackers
+4|Sugar Water
+5|Mystery Object
+6|Ana-ana-bobon
+7|Shirabe's Ribbon
+8|Sunflower Bouquet
+9|Kenbo's Fur
+10|Snakeskin
+11|Yellow Flower
+12|Corn
+13|Photo
+14|Whale Ear Bone
+## bnn-gzx/sub/item.bin p7
+0|~A thank-you for minding the house on grave-visit day.
+1|~It's dangerous. Kids mustn't touch it.
+2|~This'll wipe out the ants! Kind of mean, though?
+3|~Boku's special mix. It brings bugs in by the bunch.
+4|~A strange shape, found by the sea. Who dropped it?
+5|~Whose treasure? It hid deep in a cave.
+6|~Shirabe dropped it. A cute little red ribbon.
+7|~A gift from Shirabe. Fresh, perky sunflowers.
+8|~Sorry, Kenbo. That spot may get cold this winter.
+9|~First one I've seen. Still shaped just like the snake.
+10|~Pretty flowers for pressing. They're called globeflowers.
+11|~Packed tight with lots of shiny kernels.
+12|~Adrift for decades. A whale's lost property.
+## bnn-gzx/sub/item.bin p8
+0|~A sudden flash in the woods... I was so surprised.
+1|~It won't scare me again. Dumb machine. Nyaaah!
+2|~I thought I'd struck a cooler pose than that...
+3|Pig nose!
+4|~Perfect timing, too. Say cheese!
+5|~Me and Shirabe together. Photo by Auntie.
+6|~I was flying my kite when Auntie came and took it.
+7|~Say cheese, in front of the sunflowers.
+8|~Found at last: Mr. Wolf! But something's odd?
+9|~Goodbye, everyone. I'm going home to the city.
+10|~Morning glory, day 1. A pink flower bloomed.
+11|~Morning glory, day 2. Soaking up the sun. Looks happy.
+12|~Morning glory, day 3. Purple big and little brother.
+13|~Morning glory, day 4. Still blooming strong.
+14|~Morning glory, day 5. Which one's the prettiest?
+15|~Morning glory, day 6. They're all singing a song.
+16|~Morning glory, day 7. Big umbrellas open to the sky.
+17|~Morning glory, day 8. Whispering secrets!
+18|~Morning glory, day 9. Bloom lots next year, too.
+## bnn-gzx/sub/kite_select.bin p4
+0|Square Kite
+1|Nina Kite
+2|Cicada Kite
+3|Bird Kite
+4|Carp Kite
+5|Airplane Kite
+6|Kite Train
+7|Portrait Kite
+## bnn-gzx/system/saveload_favorite.bin t3
+0|No Memory Stick™ is inserted.
+1|Cannot access the Memory Stick™.
+2|Not enough free space on the Memory Stick™.\nSaving requires at least\n352 KB of free space.
+3|No save file for this game was found.
+4|No Favorites file was found.
+5|Failed to read the data.
+6|Failed to write the data.
+7|The Memory Stick™ was removed.
+8|The data is corrupted.
+9|The Memory Stick™ is locked.
+10|No data.
+11|An internal error occurred.
+12|The system entered sleep mode,\nso the operation was canceled.
+13|Save failed.
+14|Load failed.
+15|Delete failed.
+16|Check failed.
+17|Yes
+18|No
+19|Tidy up the game data?
+20|[Do not remove the Memory Stick™]
+21|Checking the Memory Stick™...\n
+22|Choose the Favorites file\nyou want to view.
+23|Reading the Favorites file...\n
+24|Favorites file loaded.
+25|Choose the Favorites file\nyou want to delete.
+26|Faves／　　　　　　　\nDelete this file?
+27|Faves／　　　　　　　\nDeleting...\n
+28|Faves／　　　　　　　\nDeleted.
+29|Bring Favorites along\non this summer vacation?
+30|Choose the Favorites file\nto bring along.
+31|Bring these along?
+32|Choose the Favorites file to send.\nSending does not remove\nyour Favorites file.
+33|Record the received Favorites file\non the Memory Stick™?\nThis uses at least 352 KB.
+34|Recording the Favorites file...\n
+35|Favorites file recorded.
+36|Save to which file?\nThis uses at least 352 KB.
+37|Is this file okay?
+38|Okay to overwrite?
+39|Faves／　　　　　　　　is being created.\n
+40|A new Favorites file has been created.
+41|０１)Faves／
+43|New file
+44|Corrupted file
+45|Start the game\nlike this?
+46|Looking for someone to receive\nthe Favorites file.\nPlease wait.\nPress × to cancel.
+47|Sending the Favorites file...
+48|Favorites file sent.
+49|Looking for someone sending\na Favorites file.\nPlease wait.
+50|Waiting for the sender's reply.\nPlease wait.\nPress × to cancel.
+51|Receiving the Favorites file...
+52|Favorites file received.
+53|Continue saving Favorites?
+54|Continue loading Favorites?
+55|Continue deleting Favorites?
+## bnn-gzx/system/saveload_normal.bin t3
+0|No Memory Stick™ is inserted.
+1|Cannot access the Memory Stick™.
+2|Not enough free space on the Memory Stick™.\nSaving requires at least\n352 KB of free space.
+3|No save file for this game was found.
+4|No file from a finished game was found.
+5|Failed to read the data.
+6|Failed to write the data.
+7|The Memory Stick™ was removed.
+8|The data is corrupted.
+9|The Memory Stick™ is locked.
+10|No data.
+11|An internal error occurred.
+12|The system entered sleep mode,\nso the operation was canceled.
+13|Save failed.
+14|Load failed.
+15|Delete failed.
+16|Check failed.
+17|Yes
+18|No
+19|Tidy up the game data?
+20|[Do not remove the Memory Stick™]
+21|Record everything up to today\non the Memory Stick™?\nThis uses at least 352 KB.
+22|Checking the Memory Stick™...\n
+23|Save to which file?
+24|Is this file okay?
+25|Okay to overwrite?
+26|Writing data...\n
+27|Save complete.
+28|Continue playing?
+29|Load which file?
+30|Reading data...\n
+31|Load complete.
+32|New file
+33|Diary: ８/０
+34|Diary: ８/００
+37|　？)Corrupted file
+38|Continue loading files?
+39|Choose [Summer Memories] on the title screen\nand register the sumo bugs you liked this\ntime in a Favorites file, and you can\nbring them along next time.
+## bnn-gzx/01startup/startup.bin t9/p3!
+0|D-pad\nUp: Not used\nLeft/Right: Turn\nDown: Turn around\nR: Ready the bug net\nL: Look in the bug cage\n○: Talk / Swing the net\n　  Examine / Use\n　  Skip voice\n×: Run / Replay voice\n□: Open the desk menu\n↓\n‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥\nOn the desk menu, choose: Bug Net / Bug Kit /\nSettings / Items / Fishing Tackle / Kite\n　　　　　　　　　　　　　　　　　　　　　　
+## bnn-gzx/title/config.bin p2!
+0|Message Display\nNEW Bug Mark\n
+## bnn-files/title/memory.bin p2!
+0|Picture Diary\nSpecimens + Bug Cage\nKites\nItems\nEnding\nFavorites\n
+## bnn-files/title/memory.bin p3!
+0|Choose Favorites\nView Favorites\nDelete Favorites\nWireless LAN\n
+## bnn-files/title/memory.bin p6!
+0|Send Favorites\nReceive Favorites\n
+## bnn-files/text/DIARY.BMS !
+0|Write your diary and go to bed?\nYes\nNo\n

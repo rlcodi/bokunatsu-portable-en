@@ -1,0 +1,260 @@
+500|Hee hee. Hello, Boku!
+501|Auntie, were you taking pictures?
+502|Mm-hm. I was taking pictures of you flying your kite.
+503|Oh, is that all.
+504|Now, a souvenir photo.
+505|What does Uncle love most?
+506|Huh?
+507|Well, I'll head home ahead of you.
+508|Fly the kite? || Yes || No
+509|Fwaaah...
+510|“The view from the hilltop was so wonderfully lazy that it called || less for a deep breath than for a great big yawn.”
+511|“It was a satellite, gliding along in silence.”
+512|“I stared at that cold metallic gleam for the longest time, without even blinking...”
+513|Will this bring out the Weirdo Monster...?
+514|What could it be?
+515|“A dead chicken was hanging there.”
+516|Yo. Thanks for the hard work.
+517|State your own name first, Boy Number One.
+518|Huh? Fine, then starting today you're Boku.
+519|But that's the right answer.
+520|Weird kid.
+521|I don't want to hear that from you.
+522|Now, this device has a sensor right here...
+523|I haven't even asked yet.
+524|You were going to anyway.
+525|Then I won't.
+526|I'll smack you.
+527|Don't.
+528|The sensor detects anything that passes by here, || then the flash goes off and the shutter snaps.
+529|What are you taking pictures of?
+530|Wolves.
+531|Huh?
+532|The Japanese wolf... Well, you wouldn't know it anyway.
+533|Are you the Wolf Girl?
+534|Hm?
+535|And they said you're the bath lady too...
+536|Gah ha ha... Who on earth are you?
+537|A human.
+538|Ahh, a little kid's dead-serious jokes really throw me off my game.
+539|I'm Saori. I do the college student thing at a university in Sendai. Major: natural science...
+540|I'm Boku! I do the grade-schooler thing at a school in the city, and my teacher's Mr. Nakajima!
+541|What's that supposed to be?
+542|And there's a mic here. When it picks up a sound, it starts recording.
+543|Something like that.
+544|Come by my tent tomorrow. || I've got loads of interesting books.
+545|“What a peculiar contraption to pop up out of nowhere...”
+546|“The sugar water was gone.”
+547|“Autumn is here. Hurry along home now... || The swarm of dragonflies seemed to be telling me just that...”
+548|Well, then...
+549|Upsy-daisy. There, that should about do it...
+550|Thank you very much.
+551|Yes, yes.
+552|Oh, a new face... || Young man: HOW OLD ARE YOU? || Gah ha ha ha... That means, what's your age?
+553|...Nine.
+554|I see, I see. What a bright-looking young fellow. || It reminds me of when I was that age.
+555|Where did you kidnap him from?
+556|Nobody would be the least bit sad if you disappeared! || Not ever, ever!
+557|...Everyone thinks somebody's disappeared. They're all out looking.
+558|What! Who disappeared?
+559|You did. Lit-tle squirt...
+560|What's that supposed to mean?
+561|Anyway, why don't you go home?
+562|No! I've got things to do here. || More important, was my ribbon lying around near the house? || I lost it this morning... I've got a rubber band in for now.
+563|...Everyone's worried.
+564|You're such a pest... You deal with it. You're my servant, aren't you!
+565|I said quit it! Nyaah!
+566|Nyaah yourself!
+567|You know, you...
+568|What?
+569|Oh, forget it. Do what you want!
+570|What was that about?
+571|Ahh, here he comes.
+572|Well, well. Good work, good work.
+573|Say, it's kind of scary out here, way up in the mountains like this, isn't it?
+574|Huh? Why? I'm tooootally fine.
+575|Oh, you are? Aw, and after I went and...
+576|Well, I'm going on ahead again. || See you at the sunflower field next!
+577|We have arriiived!
+578|From here all the way down near the sea, it's one great big sprawly-wawly sunflower field.
+579|Sprawly-wawly?
+580|Amazing, huh! || My big brother...
+581|He died when I was in kindergarten...
+582|but he looooved sunflowers.
+583|Huh? How come?
+584|He won a sunflower T-shirt in the Tanabata raffle.
+585|And, and, a great big music box too... || He won that once.
+586|Oh. So he liked them because he won one.
+587|So what? Got a problem with that?
+588|Nope, no problem! || But...
+589|What?
+590|But I love sunflowers too!
+591|Oh, you do...? || Heh heh, thought so. Thought so.
+592|So what? Got a problem with that?
+593|No problem! Okay, next we meet at the beach! || Oh! The path splits on the way, || but go straight on to the right, toward the Great Oak, and that's the beach. || See ya! Boi-yoi-yoing!
+594|I've run into you yet again, Boku! || All right, let me take one of you right here!
+595|Okaaay, here we go. What's Uncle's favorite food?
+596|Well, I'm going to stroll around here a bit and then head home.
+597|“How many years had it stood there...? || The giant oak towered between me and the blue sky, || its branches swaying quietly, contentedly, in the sunlight...”
+598|“And then... || small, small me wanted to know how the great big oak felt in its great big heart...”
+599|“So I stretched up, just a little, on my tiptoes...”
+600|Ahhh, it's been forever since I've been to the sea. || Hey, can you swim?
+601|......
+602|What about you, Squirt?
+603|I asked first. Answer me properly.
+604|Aww, you go first.
+605|No, you!
+606|......Don't tell me neither of us can swim?
+607|......
+608|Come on, Cape of Winds is just a little farther. || Chin up, give it your all, and let's go!
+609|A big hole in the tin roof. A rickety old beach hut.
+610|It reads: "...ka...'s... of... will be... -ed."
+611|In the bottom of the boat: a dried-up starfish and a banana peel... plus a dead cat for good measure!
+612|We're here, we're here... You get second place, and Shirabe gets first prize!
+613|Phew... I didn't know it was this far.
+614|We all used to come here for picnics a lot, way back.
+615|Fwaaah... || The sun's so bright and it feels so nice, I'm getting kind of sleepy...
+616|Fwaaah... Me too...
+617|Aaah!
+618|Huh, what...? What's up?
+619|Huh?
+620|Hm? What's wrong?
+621|...Nothing.
+622|Aw, man... I dozed off.
+623|Aw, man... I dozed off.
+624|Hey! Don't copy me!
+625|Ohh, look, look. The sun's going into the sea...
+626|“The book was written in strange characters that I couldn't read at all.”
+627|This is kind of weird. Ana-ana-bobon...
+628|“Sure enough, the book was written in hopelessly unreadable, squiggly little characters.”
+629|Yep, this is ana-ana-bobon all right...
+630|“For the record, the word means nothing whatsoever.”
+631|“This might be something important to someone... || With that thought, I decided to take the book back with me.”
+632|What do you want?
+633|You're the one who told me to come to your tent.
+634|There are all kinds of books and neat stuff in the tent. Help yourself.
+635|But no peeking in the backpack. || Those are a lady's belongings.
+636|Who's the lady?
+637|What are the books in your tent about?
+638|Let's see. Lofty, baffling, unsettling books of natural science... || Ideology books full of love and peace and Mars... || And books about my beloved Mr. Wolf, et cetera, et cetera...
+639|There was a picture of pretty flowers. Who painted it?
+640|I did.
+641|Boku! You like it here?
+642|Come by again, then.
+643|Congratulations, weird lady.
+644|......
+645|Aren't you happy?
+646|Well... you know.
+647|Why's that?
+648|Just because.
+649|But this makes you famous overnight.
+650|Ha ha... Dummy. Ever heard of the crested ibis? || I finally find where the wolves live, and I can't tell a soul.
+651|...Huh?
+652|But why would it come for sugar water, of all things? || There are records of them liking salt, but...
+653|Hey, did you do something over by the camera?
+654|I'm here.
+655|What are you reading?
+656|...A book about forests.
+657|Is it good?
+658|Starting today, it's a little bit more autumn.
+659|Huh?
+660|What makes you think that?
+661|Dragonflies... There are lots of dragonflies flying around.
+662|Huh. When did there get to be so many...?
+663|When I was little, I lived in the town at the foot of this mountain. || There were lots of dragonflies that day too, just like today...
+664|Back when I was even smaller than you are now... || I came hiking around here with my family... || And at some point that day I got lost... || Evening came, and I got scared and lonely... || I was sitting on a big rock by the river, crying... || And then, that voice...
+665|What kind of voice?
+666|I got frightened and tore down the mountain path in the sunset glow... || Next thing I knew, the young men's group who'd come up looking for me had found me safe.
+667|So the voice saved you?
+668|Yeah. That's sort of how I've come to think of it.
+669|What was making the sound?
+670|A Japanese wolf... || The voice of a Japanese wolf, which was supposed to have died out long, long ago...
+671|Hey, did any weird pictures turn up?
+672|The sky sure is wide...
+673|There's lots of neat stuff in the tent. Go have a look...
+674|Shirabe tells me you ran into a snake...
+675|The clouds are just about autumn-shaped now...
+676|Huh? What about the snake...?
+677|One sad, lonely little cloud...
+678|...You know, Wolf Girl...
+679|Were you scared?
+680|You saw the snake and ran, didn't you?
+681|I ran || No big deal
+682|Ah ha ha...
+683|Got a problem with that? That kind of hurts...
+684|...Heh, sorry. || But you know, a guy who's a bit of a scaredy-cat...
+685|Smooch!
+686|...is all the more charming.
+687|Then don't laugh at me.
+688|It's always the ones with no fear of nature at all || who go and build new towns with no human warmth, like they've been scrubbed with dish soap... || It all comes down to balance, though...
+689|Is this about a foreign country now?
+690|Nope.
+691|It's about right around here.
+692|...Boobs?
+693|...Not quite. || Oh, right... I kissed a grade-schooler, so now I have to marry him.
+694|And so I am one sad, lonely little cloud...
+695|Boo!
+696|Waah, you scared me!
+697|Heh heh. How's that!
+698|Huh? You're right.
+699|Huh, is that so.
+700|...Yeah.
+701|Bet it was a teeny-tiny snake.
+702|Come on...
+703|About two inches long.
+704|That'd be a worm.
+705|A worm, then.
+706|Oh, cut it out, Wolf Girl.
+707|Here, your photo's ready, Boku.
+708|“That was when I began to think. || That strange, mysterious Weirdo Monster... || Was there some way to lure it to Saori's machine?”
+709|“Yes... I knew. || I knew the Weirdo Monster's favorite treat...”
+710|You like painting, huh?
+711|......Yeah, I do.
+712|Huh? Don't ask me why. That's a tough one. || Hmmm... Painting trains your eye to really see things. || And that leads to knowing yourself... || Besides, taking a long, careful look at something makes your brain happy.
+713|It does?
+714|Hmph. Kids are so easy to fool.
+715|Ah... I forgot to go buy the paints I've run out of.
+716|If you read books all the time like that, won't your eyes go bad?
+717|Beats having a bad brain!
+718|How long should I stay here this year, I wonder?
+719|Ooh la la... I slept on it wrong and now my neck won't move...
+720|How many color names can you say, Boku?
+721|Mmm, lots.
+722|Then what color is today's sky?
+723|Blue!
+724|...Huh. It really is just plain blue.
+725|If you sit still for too long...
+726|What?
+727|The mosquitoes will eat you up.
+728|What do you study at school?
+729|......Doodling.
+730|Hey, you brought so many books. How'd you carry them all up here?
+731|......Guts.
+732|What do your friends call you?
+733|They say I strut around like I own the place.
+734|...Not that. I mean, what do they call you?
+735|Then: the Ronin Who Broke Out of Exile.
+736|Hey, paint me something.
+737|No way...
+738|My brushes... I forgot them.
+739|This world's just about done for...
+740|Autumn's almost here, so there's no use kicking and screaming!
+741|You don't come down to use the bath much.
+742|Nah, it's not that cold yet, so I wash in the pond during the day.
+743|Take care of yourself, you little brat.
+744|Huh?
+745|Tomorrow I'm heading down the mountain and back to the university.
+746|...Oh.
+747|Ohh? Gonna miss me?
+748|...Well...
+749|I won't miss you at all, not a bit, not one teeny tiny speck, noooot at all! || I'll miss you less than I'd miss an ant's tonsils!
+750|Oh, is that right. Sure, sure...
+751|But... thanks for everything. || This summer was pretty fun...
+752|Next year...
+753|Hm?
+754|Will you come... next year too?
+755|Yeah, of course. || Seems the wolves really are out here somewhere, after all...
+756|So you're coming because you want to see the wolves?
+757|Obviously.
+758|Ugh, I hauled up more stuff than usual this year. Packing's gonna be a pain...
+759|I'm not helping, just so you know.

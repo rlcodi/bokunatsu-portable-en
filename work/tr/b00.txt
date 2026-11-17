@@ -1,0 +1,240 @@
+0|It's cold...
+1|Huh? What's that?
+2|Whoa! What is this thing?
+3|Should I tell Uncle about the melon thief?
+4|Why can't I go in Moe's room?
+5|Where do the local kids hang out?
+6|The beehive is too scary to get past...
+7|There's no bridge, so I can't go on...
+8|How do I win at bug sumo?
+9|How should I spend my summer?
+10|How do I use the bug net?
+11|Where can I find rare bugs?
+12|How do I write a good picture diary?
+13|Where's the best view around here?
+14|How can I go swimming in the sea?
+15|How can I improve my luck?
+16|I'm scared to go pee at night...
+17|What? A watermelon thief! || Honestly, some people have no shame. || ...By the way, which uncle do you mean?
+18|Hmm. Young ladies can be awfully particular. || They're not easy to figure out. || ...Wait, by Moe, do you mean Moe Sorano from our junior high?
+19|A place where kids gather... You mean the secret base?
+20|My, my. That is a problem. || Why not try poking it with something long? || Hmm, say... a fishing rod?
+21|Then you'll just have to chop down a nearby tree and make a bridge. || If only you had an axe... || Have you looked in the shed, for instance?
+22|Oh, so you're into bug sumo too? || To win, tap your bug on the back in the ring right before the match starts. || Just keep at it. Tap, tap, tap. || That fires the bug up, so it pulls off its moves more easily. || That's my own secret technique: the Ultra Poke-Poke Sure-Win Method.
+23|If you were a student at my junior high, || I'd say: Study till midnight every night! Don't forget to review first term! || ...Or something like that. || But you're still in elementary school, after all...
+24|You can't use the bug net inside the house. || But step outside and equip it, and you can use it anytime. || Go on, give it a try.
+25|Let's see, let's see... || Ah, yes. There are plenty of those right around the back of here. || There's a secret shortcut that leads deep into the mountains.
+26|In a picture diary, out of everything that happened that day, || you write about what left the biggest impression. || But even if nothing big happened at all, || you mustn't be disappointed.
+27|The best view around here would be || the very top of Mt. Teppen. || But the trailhead closes early, || so getting there in time on foot || might be a little tricky.
+28|If you want to swim in the sea, go play Boku no Natsuyasumi 2: Sea Adventure!
+29|A way to improve your luck? || That would be praying to the Jizo statue. || When in doubt, ask the gods! || ...Now, now. Just because a teacher said it, || you mustn't go believing every little thing.
+30|That makes two of us.
+31|For the record, I am not the watermelon thief.
+32|She's every bit as hard a worker as I am. || Believe it or not, she and I get along quite well.
+33|Come to think of it, under the highway... || Kids were hauling things in there and playing without permission, || and we once got a complaint from the parents. || Listen, you must never, ever go there.
+34|But it's dangerous, || so only poke it with the rod once a day. || Understood?
+35|But an axe is dangerous, and it's too big for you. || Use it only once a day. || That's a word of warning from your teacher.
+36|Bug sumo... That takes me back. || I loved it too, you know.
+37|If night falls and there's nothing left to do, || I'd suggest writing your picture diary and getting to bed early.
+38|Remember, now. || Always equip the bug net outside the house.
+39|I'd suggest making very, very good friends with the local kids || and getting them to show you that secret shortcut.
+40|It's the days when nothing big happens || that make for the most heartfelt picture diaries.
+41|Hmm. If only there were || a shortcut up Mt. Teppen somewhere...
+42|That one's really quite fun, you know.
+43|But if you pray to the Jizo, || then when something truly good happens, you'll feel thankful to it. || Carrying that feeling with you day to day || is a pretty fine thing, don't you think?
+44|But my wife just won't wake up for me. || It's always a problem.
+45|Hello there. It's been a while.
+46|Yeah...
+47|I finally make it back here, || and autumn's already in the air. || Oh, that's right. While I was away, || did you get to meet the university researcher?
+48|Yeah, she was really pretty || Who are you talking about?
+49|...What? ...It was a woman? || I had no idea. I'll regret this forever.
+50|For the past few years, from around Obon, || a university researcher has apparently been coming to the back of these mountains.
+51|Now then, do you have any questions for me?
+52|Hello. || My summer vacation is nearly over.
+53|How come?
+54|Every year, for the second half of summer break, || I have to go to a faraway town for training. || These past few years, after Obon, || a university researcher has apparently been coming up into the mountains. || I'd really like to meet them before I go.
+55|Hmm, I see.
+56|So, what interesting question have you found for me today?
+57|That came out weird. || But field research really makes you hungry...
+58|Oh? Hello! || I'm Yoshiko. Nice to meet you!
+59|Today I'm the vice principal's field research assistant. || Um... feel-good walk?
+60|Fieldwork.
+61|That's the one!
+62|Now then, any interesting questions again today?
+63|Another hot one today.
+64|What are you doing?
+65|These hills and fields have always held a lot of memories for me. || So whenever I have time, I come here and observe all sorts of things.
+66|Now then, any questions again today?
+67|Hm? And whose boy are you? || You're not from around here, are you?
+68|I'm Boku.
+69|I see. Pleased to meet you. || I may not look it, but I'm a man who loves nature || and does fieldwork in these hills every day. || I also happen to be the vice principal of Saginosato Junior High.
+70|What! Really?
+71|You doubt me? || Then go ahead, ask me anything at all.
+72|Huh? It's Auntie.
+73|Hee hee... || I was waiting here to take a picture || of you two getting along.
+74|My mom used to be a photographer in Tokyo... Pretty amazing, huh?
+75|A photographer?
+76|Only an assistant, though. I got married and came here before I ever made it on my own... || Come on now, line up, you two.
+77|Okay! What does Dad love most?
+78|Cheese!
+79|I'll show you the photo once it's ready. || When you get home, show it to Yuzuki too. || She'll be so happy!
+80|Who's Yuzuki?
+81|That's my mom.
+82|You'll have to tell your mother what a good boy you've been.
+83|Okay.
+84|Now, you two play nice.
+85|Guess I'll head home too. || The bridge is out up ahead, || and there's a great big beehive over that way. || ...You just go stand guard over the watermelon patch or something.
+86|That was a tiny bit fun. See ya...
+87|But don't you start calling me Squirt too!
+88|What's wrong?
+89|Shhh! Qui-et-ly, now. || A cuckoo is about to slip its egg into another bird's nest... || Mm... this is the very best part.
+90|The oriental cuckoo is a relative of the common cuckoo. || Ahh, what an adorable little gesture...
+91|“All at once the air felt cold, and I stopped where I stood...”
+92|Long time no see.
+93|Hello.
+94|Hey, when I'm in high school, || I can come visit you at your place, right?
+95|Sure, okay! || Let me think about it
+96|What? Really? I'm glad, but... || have you actually thought this through?
+97|Thought what through?
+98|And so young Yoshiko learned || that feminine charm does not work || on a real live grade-schooler...
+99|...What's that supposed to mean?
+100|Homework notes... Who should I borrow them from?
+101|......
+102|...Has Moe been acting strange?
+103|Yeah, she seems down || She's full of beans
+104|...I see.
+105|Whaaat? She's fine? || Oh, for crying out loud! || Her best friend comes all the way out here, right into telepathy range... || and stands watch in the blazing sun getting heat rash...
+106|What's that supposed to mean?
+107|Don't "what" me! || I'm worried sick about her. Believe it or not.
+108|What's wrong?
+109|Phewww... || It looks like I beat her at a certain something. || Her, of all people...
+110|Congratulations.
+111|But I'm not the least bit happy about it. || Hah... I'm hopeless, even to myself. || Oh! Hey, look, look! A trout just jumped...
+112|Huh? Where, where?
+113|...You know when a fish jumps? || It's taking a good look at what's around it.
+114|I'm Yoshiko! || So you're the freeloader I've heard about? The grade-schooler with the big attitude || who's a surprisingly pushy little handful?
+115|Looks like Moe's out today. || Where did she go?
+116|To Saginosato to mail a letter || To Yamashita's to buy mirin
+117|Oh, she just went to mail a letter...
+118|It can't be...
+119|Huh, running an errand for the family. || That's just like her, somehow.
+120|You wouldn't be keeping secrets from me, would you?
+121|Hey, tell me about the town where you live.
+122|Why, you ask... || Because I'm curious about city life. || Like, is it lively around your house? || Hmm, what floor do you live on?
+123|It's a house || Apartment, second floor || Condo, third floor
+124|Oh. That's plainer than I thought. So buildings are the same as out here...
+125|Wow, no yard at all? Now that's the big city!
+126|The third floor! || Wooow. You live in a town where you can go up as high as our school roof || and not get in trouble for it? || I think a little bit a whole lot more of you now.
+127|Speaking of lively, the frogs make quite a racket around here at night. || Heh, in early spring, I mean.
+128|When the snow melts and spring comes, || and Saginosato down below gets busy with rice planting... || that's when the frogs start singing up here...
+129|Hey, are you from the city?
+130|Yeah, I am.
+131|You're staying way out here in the sticks all summer? || Aren't you bored?
+132|Why, you ask... || Well, what do you think of this place?
+133|It's fun, of course || It's a little sad || I'm starving
+134|Really? I think there's absolutely nothing here.
+135|Right? || Especially around here. It's so lonesome the sadness just drops on you...
+136|What's that about? || Mr. Freeloader, are you holding back at mealtimes?
+137|Lucky you, a city kid... || When I grow up, I'm going to live in the big city for sure.
+138|Your hair's so pretty. What shampoo do you use? || Can I touch it?
+139|Who are you, anyway?
+140|I'm Moe's friend. Her best friend! Today I'm on a scouting mission.
+141|I'm her best friend, so I came to scout things out.
+142|I see. Then when Moe practices with him, || let me come and watch too. || Bye-byeee!
+143|See you.
+144|Ohhh, this is bad... || "Let me come watch, bye-byeee!" Listen to me... || What on earth am I saying to my rival in love...
+145|Who are you?!
+146|Well then, I'm me! || Yoshiko!
+147|This place was all run-down, and my dad fixed it up, bang bang bang.
+148|Wow, just like a carpenter.
+149|This little stream is called the Yukino River.
+150|Huh, is it? Hey, is that "yuki" like snow?
+151|Yeah, the snow that falls from the sky.
+152|Oh, so it snows here.
+153|It doesn't snow where you live? Not at all?
+154|Nope, only once in a while.
+155|Hee hee, poor you. || ...But really, it's a river where lots and lots of fireflies pop out, || and that's why it's named the Yukino River.
+156|Huh...? How come?
+157|Huh?
+158|Why do fireflies popping out make it get named after snow?
+159|...Th-that's...
+160|Ohh, so you don't know.
+161|I do so! || It's just, you're the one person I'm never, ever supposed to tell... || Dad told me absolutely, absolutely, absolutely not to.
+162|It's an absolute secret!
+163|Where on earth has that girl gone?
+164|Shirabe... Shirabeee...
+165|Hey, Auntie?
+166|Hm...? What is it?
+167|Maybe Shirabe ran off || because I'm going home tomorrow...?
+168|Yes, that could be. She seems so tough at first glance... || but deep down she's a very gentle, sensitive girl...
+169|I'll do my best to find her.
+170|All right. Then you go look down toward the sea, Boku... || But don't go anywhere dangerous.
+171|Yeah, I know.
+172|Hoes, spades and fertilizer. I wonder whose shed this is?
+173|So many little graves. They look kind of like chess pieces.
+174|No way! How'd I lose?!
+175|Guess cheating doesn't pay...
+176|But Gacchan, Boku's gotten really strong, huh!
+177|Yeah, guess so...
+178|Come with me a sec. I'll show you something good.
+179|Hey, Boku, I'll let you in on something. Press the ○ button right here!
+180|Huh? What'll happen?
+181|Heh heh... Welcome to the secret shortcut nobody knows but us!
+182|Secret?
+183|Yep! Go through here and you're at Ryujin Pond or Mt. Teppen in no time.
+184|Just press the button already.
+185|Huh? Where am I...?
+186|“The day before I went home, there was no one at the secret base under the highway... || Naturally, that was a lonely thing for me. || But children understand the cruelty of children, || and so I told myself: these things happen...”
+187|“Yet the cool breeze crossing the pond made me feel that my short summer || in these hills had very little time left... || These things happen... Even as I thought it, || my chest ached somehow...”
+188|What gorgeous weather! Hello, Boku.
+189|Hi, Uncle. Hi, Auntie.
+190|My, the sky sure is high today...
+191|Thanks for coming like you promised, Boku.
+192|Hee hee. All right, Boku! || Pick every ear of corn in the field and put them in this basket. || Ready... get to work!
+193|Go on, Boku. Do your best.
+194|We'll take care of the cleanup. || Off you go now. Kids should be out playing.
+195|Phew... What lovely weather, though! I'm so glad!
+196|Around lunchtime tomorrow, I'll boil up a whole bunch in the big pot. || You look forward to that.
+197|That's just about the last of it, Boku. || Good work out there.
+198|I worked up a nice sweat myself.
+199|Waah, a snake!
+200|No! I said no!
+201|What happened! Boku, are you all right?
+202|You're safe now.
+203|Were you scared?
+204|No, I wasn't.
+205|Ha ha ha. A boy shouldn't get scared over a little thing like this.
+206|“What lay there was a snake's shed skin, dried up in a way that seemed almost sad.”
+207|Got a shed snakeskin.
+208|The offerings are crawling with little black ants!
+209|This Jizo statue, you see...
+210|Oh? || Being with you gives me the worst luck. || This is a Jizo that can tell your fortune. || Want to try? I'll give you special permission.
+211|I... || I can't hit a Jizo statue.
+212|So you'd rather get clobbered by me?
+213|Aww, come on...
+214|I'm sorry, Mr. Jizo.
+215|Kya ha ha, how lame. || Well, I'm going on ahead.
+216|I dropped the sugar water.
+217|You like sweet stuff?
+218|Whoa!
+219|“The big beehive wobbled and swayed... || It felt as if just a few more pokes with the rod would bring it to the ground...”
+220|I did it!
+221|What's this?
+222|Uh-oh...
+223|Gyaah!
+224|So you're finally awake. || You have to be careful around beehives. || It'd be awful if you got stung somewhere important.
+225|Well, I thought you might've died, || but by the look of you, you'll be just fine!
+226|What a shame... While you were out cold, || I thought we'd all have ourselves something tasty.
+227|The chrysalis... Did you go see it?
+228|Well? Did you see it? || Looks like it hatched and flew off when no one was looking... || Aw, that's too bad.
+229|But thanks for all your help. || I was kind of glad we got to be friends.
+230|Ummm...
+231|C-could it be hatching already?
+232|Yeah!
+233|Thank you. I appreciate your help.
+234|My family makes pottery.
+235|Oh yeah?
+236|There's a lot of that around here... || Really, it's the busy season and I should be helping out at home.
+237|Uh-huh.
+238|But I found something I just can't stop thinking about.
+239|Want to see?

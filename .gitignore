@@ -1,0 +1,13 @@
+# game data, saves, dumps: never commit
+private/
+*.iso
+*.ISO
+*.cso
+*.pbp
+*.PBP
+# build outputs (the patch goes in a GitHub release instead)
+release/*.xdelta
+# misc
+__pycache__/
+*.pyc
+.DS_Store

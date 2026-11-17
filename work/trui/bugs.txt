@@ -1,0 +1,129 @@
+0|Asian Swallowtail|They live all over Japan. I even see them in my town. They say they don't like the cold much.
+1|Yellow Swallowtail|Its caterpillar's a weirdo. It loooves carrots and parsley, the stuff I can't stand.
+2|Black Swallowtail|Slowly flapping its jet-black wings, off it goes under the sun. Hey, aren't you hot?
+3|Red Helen|It's called Red Helen, but it's black. And who's Helen, anyway? Not red. Not Helen.
+4|Long-tail Swallowtail|Birthdays: the summer-born kids somehow grow bigger than the spring ones. Funny, huh, Long-tail?
+5|Crow Swallowtail|Such pretty blue-green wings, and they call it a crow? Poor thing! Look close. It's a snappy dresser.
+6|Mountain Crow Swallowtail|It lives by rivers up in the mountains. You might meet one while you're fishing.
+7|Musk Swallowtail|He's a boy, but he's fancier than the girls and even wears perfume. I'll try hard too! ...At what?
+8|Bluebottle|Newly hatched, its stripes are yellow-green. Then, before your eyes, they turn blue... The sun's big makeover!
+9|Mikado Swallowtail|They say it lives in India and Sri Lanka too. I'd like to go... but where are those?
+10|Glacial Apollo|A butterfly with clear, pretty white wings. Kind of like the dress a big sister wears at her wedding.
+11|Clouded Yellow ♂|Look closely and the pink trim is kind of cute. He's just like a girl!
+12|Clouded Yellow ♀|A plainer pattern than the boy's? It's like they got dressed in each other's clothes.
+13|Grass Yellow|You see it in fields a lot. They say the nail that sticks up gets hammered. Maybe that's this one.
+14|Wood White|Slimmer wings than other butterflies. It drifts along gracefully, floating as it flies.
+15|Cabbage White|Its caterpillar loves cabbage! It eats and eats, and it turns up just about anywhere.
+16|Black-veined White|White wings with black veins. It chews up apple and cherry trees. Pretty, but maybe a bad guy.
+17|Spotless Grass Yellow|The tips of its pretty yellow front wings have a dab of brown. Kind of stylish.
+18|Lesser Brimstone|Its wings are pointed like leaves. By the time it wakes from its winter sleep, they're in tatters.
+19|Gray-veined White|It loves damp shade. In the city you sometimes see more of these than cabbage whites, they say.
+20|Moorland Clouded Yellow|It lives in secret way, way up in the high mountains. Its pink trim is very stylish.
+21|Orange Tip|A butterfly with scrollwork wings and quiet good taste. Off it flew under the bright, clear sky.
+22|Japanese Treebrown|Like China's pandas, you mostly see it in bamboo groves. But this butterfly lives only in Japan.
+23|Diana Treebrown|Rows and rows of eyespots on its wings. Confusing. They say it loves sawtooth oak sap.
+24|Japanese Labyrinth|A butterfly that hardly drinks nectar. How strange! An oddball that perks up in the evening.
+25|Japanese Argus|An alpine butterfly from way up high. Spot one on a climb and you might be a little lucky.
+26|Arran Brown|It lives on cool, high mountains where it snows in winter. It loves flying over treeless meadows.
+27|Dryad|In Japanese it's the snake-eye butterfly. It doesn't seem scary. But look close... yep, scary eyes.
+28|Bushbrown|It likes cloudy days better than sunny ones. Well, I can't take too much heat either.
+29|Silver-washed Fritillary|It grows up in spring and then sleeps all summer. Just like my uncle.
+30|Indian Fritillary|It loves sweet, tasty violet nectar! I'd like a little lick too. Come on, share.
+31|Black-Lady Fritillary ♂|He's a boy, but he's a Black-Lady Fritillary. However manly he gets, he can't change his name.
+32|Black-Lady Fritillary ♀|A fritillary with no leopard spots, and a lady Black-Lady on top of that. My headache has a headache.
+33|Red Admiral|It rests all day without moving, then gets going in the evening. It likes to stay up late.
+34|Mourning Cloak|It lives in the woods and floats quietly by. It likes tree sap better than flower nectar.
+35|Painted Lady|Called a Lady, though there are boys too. In autumn they all travel south. They can't stand the cold.
+36|Asian Comma|Boys and girls have wings just alike. Do they ever get mixed up? ...About what?
+37|Scarce Tortoiseshell|It loves tree sap. I wonder if it knows the rhino beetles and stag beetles. Lucky.
+38|False Comma|It likes places with lots of stones. It stands out so much. Is that okay? I wonder.
+39|Comma|Wings with bumpy, jagged edges. No other butterfly has them, period. Well... comma.
+40|Blue Admiral|Its beautiful azure wings are the color of the night sky over my uncle's valley.
+41|Peacock|Four eyes on its wings plus its two real eyes makes six. Now I'm all mixed up.
+42|Great Purple Emperor|Big, colorful and beautiful all around. Japan's king of butterflies.
+43|Lesser Purple Emperor|Its mysterious wings change color with the angle you look from. It loves willow trees.
+44|Constable|In Japanese it's named for wings like ink swirled on water. Sometimes it's on sawtooth oaks.
+45|Great Glider|It loves peach and plum trees. Same as me. A big eater?
+46|Common Glider|It flits lightly through the sunbeams in the woods. Like it's dancing in the light.
+47|White Admiral|As a kid, its back is like cactus spines. Grown up, it has one straight line on its wings.
+48|Poplar Admiral|It lives up high on mountains where it's cool, and it likes to bask in the sun.
+49|Japanese Circe|It likes hackberry trees. With its pretty two-tone wings, it comes around near town.
+50|Large Map|Its Japanese name means upside-down eight. But my dad says the opposite of 8 is minus 8.
+51|Snout Butterfly|The bump on its head is like a goblin's nose, and its dead-leaf disguise is a goblin's magic cloak!
+52|Chestnut Tiger|When the season comes, it migrates like a bird. A bit of an odd one.
+53|Angled Sunbeam|Round and round it circles through the sky, then rests on the ground a while. Where to next?
+54|Japanese Silverline|As a caterpillar it gets raised in an ant nest. Lazybones. Believe it or not, it eats meat.
+55|Black-backed Hairstreak|Come evening it's full of pep! It keeps flying after dark. Doesn't it get scolded for playing so late?
+56|Oriental Hairstreak|Sparkling wings, like green powder dusted on black. They say it gets up very early.
+57|Emerald Hairstreak ♂|A funny name for a boy. For a boy... Emerald sounds like a girl.
+58|Emerald Hairstreak ♀|With a name like Emerald you'd expect sparkle, but she's a bit plain. Emerald Plain-streak.
+59|Kirishima Hairstreak|It flies over the treetops in waves. Its wings sparkle in the sunlight. So pretty.
+60|Silver-studded Blue|It flies slow and easy over meadows and riverbanks. Ultramarine with white trim. Stylish.
+61|Forest Pierrot|Its wings have a funny pattern, like the go stones Grandpa loves. Best friends with aphids.
+62|Plum Hairstreak|Just like its name says, it loves plums! In the evening it floats around high in the treetops.
+63|Dusky Blue|Aphids give it honeydew and black ants feed it. This butterfly knows how to get by in the world.
+64|Sylvia's Blue|Before anyone noticed, there were hardly any left. The name's easy to remember. Finding one is not.
+65|Japanese Flash|It dines on all kinds of flowers. A real big eater. You shouldn't be picky either, everybody!
+66|Sky-blue Hairstreak|Morning and evening it flies through the woods. Like delivering newspapers. A very good butterfly.
+67|Orange Hairstreak|A slowpoke that won't budge till evening. Staying up late, maybe?
+68|Small Copper|The boys each have their own turf. So small, yet so feisty. Just like a certain somebody.
+69|Loomis's Blue|Dying out because of pesticides? Gone before long? I'll never let that happen!
+70|Green Hairstreak|It has a hundred kinds of relatives around the world, they say. This is one of them.
+71|Ultramarine Hairstreak|Busy in the early morning and evening. Lots live in northern Japan. It sips nectar on chestnut trees.
+72|Asama Blue|A pretty butterfly you hardly ever meet. There aren't many, so please don't catch too many.
+73|Pale Grass Blue|Known for the leopard spots on its wings. Lots live on southern islands. It grew up on wood sorrel.
+74|Tailed Blue|Swallow-colored wings with swallow tails on them. But it doesn't migrate.
+75|Awlking Skipper|Pretty wings, a big belly and big eyes. I love its metallic shine!
+76|Yellow-spotted Skipper|A butterfly with bright yellow wings. Its caterpillars like grasses.
+77|Princess Skipper|A cousin of the Yellow-spotted Skipper. Called a princess, but there are boys too. Confusing.
+78|Daimyo Skipper|Daimyo, a lord? Sounds stuck-up. But they say it looks like someone bowing to a lord.
+79|Silver-lined Skipper|The silver stripe that glints on the underside of its wings is so cool. A butterfly with quiet taste.
+80|Miyama Stag Beetle ♂|It loves beech and sawtooth oak sap! Its head flares out in a funny shape.
+81|Miyama Stag Beetle ♀|The girls work hard too, laying eggs so we can catch lots of stag beetles next year. Good for them!
+82|Giant Stag Beetle ♂|When you say stag beetle, you mean this guy! Big and just plain strong! The Stag Beetle Kiiing!
+83|Giant Stag Beetle ♀|No big horns, but for sheer size she won't lose to the other boys!
+84|Flat Stag Beetle|Known for the big jagged tooth at the very base of its horns! Jet black and glossy. So cool.
+85|Little Stag Beetle|A little guy, just like it sounds. But now and then one grows past two inches!
+86|Saw Stag Beetle ♂|Just like the name says: a saw! Known for its jagged horns!
+87|Saw Stag Beetle ♀|However small, she spent two or three years in rotten wood, working her way from egg to grown-up.
+88|Red-legged Stag Beetle|It loves willow sap. It sits on a branch, and when you shake the tree, down it comes.
+89|Ogre Stag Beetle|It's small and pretty cute, but I guess those short horns look like an ogre's.
+90|Rhino Beetle ♂|Only one horn to fight with, but it packs amazing power. Stag beetles are no match for it.
+91|Rhino Beetle ♀|The girls are smaller, and with no horn they're not strong. At a glance, just a plain old beetle.
+92|Striped Stag Beetle|It has stripes, but no shine. To be nice: understated. To be mean: plain. That's this stag beetle.
+93|Lesser Giant Stag Beetle|Short horns and no gloss, but I bet it's hiding amazing power. I bet. I bet.
+94|Heike Firefly|As an egg, as a larva, it glows its whole life long. Not hot to the touch. A mysterious summer light.
+95|Relic Dragonfly|They say it's been around since way back, long enough to be a fossil. What a guy.
+96|Mountain Clubtail|It's born where big rivers slow down near the sea. In summer it climbs all the way to the mountaintop.
+97|Golden-ringed Dragonfly|The biggest dragonfly in Japan. It even eats hornets. Scary. It hurts if it bites you!
+98|Lesser Emperor|The pond is its turf. Pretty cheeky for a dragonfly.
+99|White-tailed Skimmer ♂|His straw-colored body gets covered in white powder as he grows, like he's been salted.
+100|White-tailed Skimmer ♀|They say some girls get powdery white like the boys. I never knew that.
+101|Summer Darter|When it's grown, it turns bright red from head to tail. A red dragonfly the color of sunset.
+102|Autumn Darter|A red dragonfly with only a red tail. It flies up the mountain after hatching and comes down in autumn.
+103|Eyebrow Darter|Look closely and this dragonfly really does have eyebrows. That gave me a start.
+104|Pied Skimmer|Its black tail has a gap partway down. Open at the waist, they say. It likes shady trees over ponds.
+105|Tortoiseshell Skimmer|Tortoiseshell-colored, just like the name. But once it grows up, it turns cocoa brown.
+106|Butterfly Dragonfly|It's a dragonfly, so why butterfly? A funny name for a funny dragonfly. And it's teeny-tiny.
+107|River Damselfly|It lives by rivers in the mountains. Orange, clear, brown... its wings come in all sorts of colors.
+108|Black Damselfly|The blue line at the tip of its tail is how you know it. Who put it there, and what for?
+109|Golden Damselfly|A pretty, pretty yellow dragonfly. Not plain yellow. Golden.
+110|Ruler Damselfly|The dots on its belly are just like a ruler. What does it measure, I wonder?
+111|Scarlet Damselfly|Its long, bright red body is like a branch of coral. It might look nice in a big sister's hair.
+112|Migratory Locust|It jumps dozens of times its own height. Pretty amazing. In a swarm it wrecks the fields. Bad guy.
+113|Longheaded Grasshopper|It goes kichi-kichi-kichi when it flies. Mr. Grasshopper's trademark is his long pointy head.
+114|Rattling Katydid|In grassy clearings in the woods, only the boys make that gacha-gacha racket.
+115|Conehead Katydid|It likes damp meadows. At night it sings in one long buzzing jeeee.
+116|Horse-driver Katydid|Its sui-tcho call sounds like a driver urging on his horse. That's how it got its name.
+117|Bush Cricket|It loves leeks and cucumbers. In the hottest part of the day it sings gee-chon.
+118|Emma Field Cricket|Named for Enma, the scary king of the underworld. But its cool koro-koro-ree calls in the autumn.
+119|Grass Lark Cricket|By day in summer and by night in autumn, it sings a gentle fi-ri-ri-ri-ri.
+120|Bell Cricket|Long ago people called it the pine cricket. Now it's the bell cricket. Which name do you like?
+121|Pine Cricket|Long ago people called it the bell cricket. Now it's the pine cricket. Which name do you like?
+122|Nii-nii Cicada|It likes cherry tree trunks. It sings a funny sort of cheee-eee.
+123|Large Brown Cicada|It sings its heart out in a racket like boiling oil. Twice the heat. Now it's really summer.
+124|Ezo Cicada|It likes pine and cedar trees. It perches head-down on the trunk and growls a low geee.
+125|Evening Cicada|It likes dim, shady woods. In the evening it sings kana-kana-kana. Such a lonesome sound.
+126|Min-min Cicada|Meen-meen-meen-meen. Sing as it may, it lives just two weeks. Meen-meen-meen-meen. So sad.
+127|Tsuku-tsuku Cicada|Lots come out in late August, so they call it the cicada that announces autumn.
+128|Praying Mantis|

@@ -1,0 +1,250 @@
+1000|Hashed beef rice || Hamburger steak || Diced steak
+1001|Meat and veggie stir-fry || Fried chicken || Pork cutlet
+1002|Chilled noodles || Oyster-sauce pork and cabbage || Spring rolls and chop suey
+1003|Salt-grilled saury || Sashimi and tempura || Fried sardines
+1004|Fried shrimp || Meat and potato stew || Cabbage rolls
+1005|Omelet rice || Fried salmon || Chicken saute
+1006|Pork cutlet bowl || Marinated horse mackerel || Curry rice
+1007|Minced meat cutlet || Fried rice and sweet-sour pork || Hamburger steak
+1008|Spaghetti || Miso-grilled pork || Omelet rice
+1009|Sea bass meuniere || Glazed grilled saury || Fried sardines
+1010|Cabbage rolls || Pork cutlet || Croquettes
+1011|Sashimi and tempura || Spring rolls and chop suey || Stuffed lotus root fritters
+1012|Gyoza || Chicken and egg bowl || Hamburger steak
+1013|Spaghetti || Chilled wheat noodles || Salmon and roe bowl
+1014|Cutlet curry || Inari sushi || Omelet rice
+1015|Cabbage rolls || Tomato-stewed chicken || Stuffed green peppers
+1016|Ginger pork || Fried rice and sweet-sour pork || Sea bass meuniere
+1017|Pork cutlet || Spring rolls and chop suey || Fried chicken
+1018|Fried shrimp || Minced horse mackerel || Hamburger steak
+1019|Grilled mutton || Sushi || Diced steak
+1020|Sashimi and tempura || Grilled dried mackerel || Stuffed lotus root fritters
+1021|Chicken saute || Pork cutlet bowl || Spring rolls and chop suey
+1022|Dry curry || Tomato-stewed chicken || Omelet rice
+1023|Spaghetti || Curry rice || Gratin
+1024|Marinated horse mackerel || Fried rice and chop suey || Meat and potato stew
+1025|Cabbage rolls || Stuffed green peppers || Hashed beef rice
+1026|Curry rice || Ginger pork || Croquettes
+1027|Fried chicken || Sea bass meuniere || Grilled mutton
+1028|What will you drink? || Nora-brand milk || Barley tea
+1029|From right to left: flour, sugar, salt.
+1030|A basket of potatoes and little onions.
+1031|A cupboard with wavy glass doors... Everyone's rice bowls and soup bowls are neatly lined up.
+1032|A shiny mirror... Check carefully for cavities!
+1033|The priest has gone home. "Danke schoen," he said. || Thank you for sitting through it, Boku. You can go out and play now.
+1034|Today was lots and loads of fun, wasn't it? || Next time I'll take you even farther...
+1035|Open wide and... pffft!
+1036|So it's patchin'work.
+1037|That's right.
+1038|It's a present for Dad and Mom's anniversary today.
+1039|A pot holder for Mom, and a bone tie for Dad!
+1040|A bone tie?
+1041|A BOW tie.
+1042|A pretty potted plant is on display.
+1043|A dead branch is arranged in a big jar.
+1044|A white baseball cap. Whose is it?
+1045|Auntie's dresser has the mysterious smell of face powder.
+1046|A little serving of rice and some sweets have been offered at the family altar.
+1047|Kenbo!
+1048|So you came after all... I'm such a heartbreaker.
+1049|Okay, scamper along right behind Shirabe. || I'll go on ahead as far as the bridge.
+1050|“For me, it was the first encounter of my life || with a creature that would prove a dreadful amount of trouble.”
+1051|We've just finished breakfast.
+1052|I've got something to show you... || Heeey, Boku, come out here a sec!
+1053|Hm? What's this?
+1054|You finally did it.
+1055|Yes. Thank you.
+1056|Oh, morning, weird kid.
+1057|Morning, weird lady.
+1058|Heh heh heh. What do you think this is?
+1059|It's a Japanese wolf! You did it!
+1060|So they were here after all. On this mountain, all along...
+1061|...It's kind of, somehow... huh?
+1062|Found Shirabe's ribbon.
+1063|It's locked.
+1064|“That was the first time I ever set foot in the sisters' room...”
+1065|Third-grade textbooks sit there alongside the comic books.
+1066|Boo!
+1067|Breakfast time.
+1068|Mm...... Huh? What about exercises?
+1069|Sleepyhead!
+1070|“Far off, I could see the village of Saginosato at the foot of the mountains...”
+1071|Found a crumpled-up test paper. It says "Shirabe Sorano" on it.
+1072|Which will you look at? || Bug collecting kit || Picture diary
+1073|Hee hee. Boku has finally infiltrated...
+1074|Moe? || Can I... come and play in here anytime?
+1075|Sure you can. || But keep quiet when I'm studying, okay?
+1076|Ohh, so you like studying.
+1077|Ah ha ha... I only like the things I like.
+1078|So what do you like?
+1079|Japanese and art. I like music too.
+1080|And what don't you like?
+1081|...English! || ...The vice principal teaches it, and I just can't warm up to it. || He's so fired-up and intense that by the end of class we're all limp as noodles.
+1082|Hmm. So he tries too hard.
+1083|I love the view from this room's south window. || At sunset it's like the purple flowers of a tropical island || went pop, pop, blooming between the clouds. It's so pretty.
+1084|Oh, come on in, Boku.
+1085|Were you studying just now too?
+1086|Huh? Ummm...
+1087|Heh heh. Right now it's a little slacking-off time.
+1088|How come you're always studying so much?
+1089|That's because I'm a poor, sad exam student.
+1090|An exam student... What a dull way to spend my youth.
+1091|Eh heh heh... || The truth is, I'm really happy right now...
+1092|Just because.
+1093|Because I'm happy, that's why.
+1094|Wasn't that priest funny? || He powers up a little more every year.
+1095|I wish I had a sunny personality like that...
+1096|Sigh... A reply really ought to have come by now...
+1097|A reply to what?
+1098|Eh heh heh... Now, what could it be?
+1099|Don't tell me... Did I write the address wrong?
+1100|I wonder if I could ride the swing too.
+1101|Because I'm heavy, obviously.
+1102|Huh? What? What did you say?
+1103|Why can't you ride the swing?
+1104|That is a secret.
+1105|Sigh... Honestly, really, why hasn't it come at all?
+1106|Why hasn't what?
+1107|If there's no reply by the end of tomorrow, maybe I'll be brave and try calling...
+1108|Say, have you ever gone in the air-raid shelter on the edge of Ryujin Pond? || It's half caved in already, so you mustn't go inside. || It's very dangerous.
+1109|I'm a coward, so I'm too scared to go in there.
+1110|Well, I was studying for exams last night, and... || how do I put it... I fell dead asleep, and my textbook's a mess.
+1111|From the drool.
+1112|If my grades aren't bad when the new term starts, || maybe I'll study at my own pace a little more.
+1113|Oh? What's this?
+1114|This is... ana-ana-bobon.
+1115|What's that? || Oh, there's an English dictionary in here, and... a tattered letter.
+1116|So it IS an alien book.
+1117|Dum-my. This is English. Eng-lish!
+1118|Can you read English?
+1119|Of course I can't. It's the class with my least favorite teacher.
+1120|Let me try reading the letter.
+1121|Yeah, read it to me, read it to me.
+1122|...The letter was in English too.
+1123|Aw, nuts...
+1124|What'll I do? Even if I wanted to translate it, my dictionary's still sitting at school. || Isn't there an English dictionary around somewhere?
+1125|...Are you doing this on purpose?
+1126|Huh? What? Whaaat? Doing what?
+1127|I'll have that letter translated by dinnertime.
+1128|Can you do it?
+1129|Oh, hush! || Knowing somebody's secret is packed in here has my heart going pitter-patter. || Even my own misfortune feels a little lighter.
+1130|Moe, I... || I really wish I could stay in this house a little longer.
+1131|I see... So you made lots of good memories, Boku.
+1132|Yeah. I think they're going to be my treasure.
+1133|I see...
+1134|Moe, I found something mysterious in the cave.
+1135|Oh, something mysterious? Good for you. || Well, it might turn out to be your treasure for life, || so take very, very good care of it.
+1136|I'm going to do my best and find a treasure for life too... No matter what.
+1137|You know, today's your mother's due date.
+1138|Huh? What's a due date?
+1139|Ummm, it's the day the baby's scheduled to be born!
+1140|So people have things on their schedule even before they're born.
+1141|Are you packing to go home already?
+1142|Not at all... All I brought was one little bag.
+1143|...Oh, so that's why you wore the same clothes every day.
+1144|Full of letters that were started and thrown away.
+1145|A red school backpack plastered with stickers.
+1146|“It was a darling little half-finished pressed-flower piece, made with dainty yellow blossoms.”
+1147|Moe, what's wrong?
+1148|Does something hurt?
+1149|I'm sorry. Right now, I...
+1150|...Kh...
+1151|Leave me alone...
+1152|Moe, are you okay?
+1153|...Yeah, I'm okay.
+1154|Auntie said all girls get like that...
+1155|What part of you got sick?
+1156|It's like, my dreams, my hopes... || everything about my future... I just don't care anymore.
+1157|Just leave me beee...
+1158|I bet I was a slug in a past life. || Or maybe an earthworm or something... || Oh! A jellyfish drifting quietly on the waves... || That's nice and hopeless. It'd suit me...
+1159|What on earth is it that I'm missing right now?
+1160|...Nutrition.
+1161|Sigh... I really don't feel like doing anything. || I wish I could do everything while lying right here...
+1162|Sigh... I wish somebody, anybody, would cheer me up.
+1163|I've been so sleepy in the daytime lately. || Maybe I've turned into a night owl.
+1164|A nye-towl?
+1165|It means nocturnal. || Like Mr. Owl and Mr. Bat... || And Mr. Musasabi and little Miss Momonga, too.
+1166|But don't ask me the difference between a musasabi and a momonga.
+1167|Say, here's a strange story. || You know how they say the vice principal hid a treasure in the mountains around here...? || I just can't get it out of my head...
+1168|Where on earth could he have hidden it? || There's no spot in these mountains that just screams "treasure hidden here"...
+1169|I was up studying till dawn...
+1170|So I want to lie here a little longer.
+1171|You really love sleeping, don't you...
+1172|Yeah. If I had the time, I'd sleep about fifteen hours a day...
+1173|Mom! Shirabe's back!
+1174|...!
+1175|Boku, when you fish in the ponds and rivers around here, || be careful not to fall in the water. || Hardly any anglers come here, so there's a tremendous number of fish. || When the water's clear and you can see the fish well, || watch how they move to time your strike. || Where you can't see so well, a light float as a marker might help. || But don't let the fish get a good look at you.
+1176|Remember: || either watch the fish directly to time your strike, || or when you can't see well, put on a light float as a marker.
+1177|How many years ago today did you and Auntie get married?
+1178|Seventeen years ago. || It was supposed to be the day before, actually, || but that was a Sunday and the Suginami ward office was closed.
+1179|I see... It's been seventeen years already...
+1180|Boku, is this your first time living in a house with a veranda?
+1181|Wherever you are in this house, you get a nice cool breeze... || So we do have an electric fan, but we've hardly ever used it.
+1182|Yes, houses in the old days were all like this. || When the ground all around has been buried in concrete, || I suppose it just doesn't work the same...
+1183|Nice high ceilings, aren't they?
+1184|By this hour I've always knocked off work and come home. || But the workshop stays unlocked until just before dinner, || so you're not to go in there when I'm not around.
+1185|Looks like you watered the morning glories today. Good work. || Please don't forget tomorrow, either.
+1186|Our field is only as big || as we need to feed ourselves. || Taking it easy is the best way with everything.
+1187|Thanks for helping in the field today. || Our field's small, || so it might be just right for you to help with, Boku.
+1188|What a bother, going to the village meeting... || Boku, want to go in my place?
+1189|Stop that! If you talk like that and your laziness rubs off on Boku, || I'm the one who'll get scolded...
+1190|How many days has it been since I left this valley, I wonder...
+1191|Phew, what a slog. || I stood guard in the watermelon patch all day today. || But thanks to that, today's damages came to zero.
+1192|Guard duty really wore me out today... || And of course, it's on a day like this that the watermelon thief doesn't show...
+1193|Whew... Well, one day of guarding the field and I quit. || I mean, it's hard work. No, really...
+1194|Boku, are you about used to this house by now?
+1195|I see... || They say this house was originally a farmhouse built over Kanazawa way in the middle of the Meiji era. || The fellow who lived here before me bought it and had it relocated here.
+1196|Relo-what?
+1197|It means moving house, building and all. || A bit like a hermit crab, isn't it?
+1198|Mmm, there's a fine breeze coming in today.
+1199|Come to think of it, the fireworks show is coming up... || Hm? What day was it again?
+1200|The fireworks down in the village look best of all from your room, Boku.
+1201|Huh? So the fireworks show was yesterday after all. || Come to think of it... he loved the Saginosato fireworks too, didn't he.
+1202|Aww, I wanted to see the fireworks.
+1203|Kaoru, beer!
+1204|Clean the gas stove and I'll think about it.
+1205|All riiight. By the power of my mind, a beer shall come to me...
+1206|Fwaah... That only made me thirstier.
+1207|I'd like to split a bit more firewood before we fire the kiln at the end of the month. || I'd better hurry up and buy a new axe and get rid of the old one in the shed...
+1208|Come to think of it, the axe I put in the shed has gone missing. || It's not as if a moon bear came by and carried it off...
+1209|Mm... That wind chime sounds nice... Nice breeze...
+1210|Kenbo looks as happy as ever... || The mountain monkey gang never showed up this year, after all.
+1211|Monkeys come here?
+1212|Of course they do. We're deep in the mountains. || The monkeys make the rounds of these valleys every two or three years. || But it's always the wild boars that do the worst damage to the fields.
+1213|I just noticed... Is Kenbo going bald?
+1214|We've had Kenbo since we were living in Tokyo. || So he's getting to be an old man by now. || We have to be kind to the elderly.
+1215|Boku, how's the fishing been lately?
+1216|Fantastic || Not so hot
+1217|With trout especially, strike early. Earlier than you think. || That fish can tell in an instant the bait's a fake, and it spits it out. || So striking before it's even got the hook in its mouth is about right, they say.
+1218|But hardly any anglers come to the rivers here, || so the fish aren't used to people and they're really easy to catch.
+1219|Muggy tonight...
+1220|Maybe it's time I got the fan out, at least.
+1221|Hm? Our Nora's mooing at this hour... || I wonder what's the matter.
+1222|Nora... Is that the cow's name?
+1223|That's right.
+1224|Why Nora?
+1225|She was a stray, a "nora" cow, so we call her Nora. || Still, that's odd. Did a wolf come around or something?
+1226|One day Nora was just there, standing at our front gate. || In the end we never found out who she belonged to, || and so she became our Nora.
+1227|Maybe I'll take a stroll out toward the Wolf Girl's tent myself.
+1228|Think I'll go to the barber's tomorrow.
+1229|Here's something I heard at the barber's today. || Word's gotten around down in the village that our watermelons are pretty tasty.
+1230|They're especially popular with the kids, apparently. || Funny. We grow them for ourselves, so they shouldn't be on sale anywhere...
+1231|A man can never figure out what goes on in a girl's head.
+1232|What are you talking about?
+1233|The story of a troubled father with an adolescent daughter...
+1234|Adda-lessons?
+1235|Adolescence.
+1236|When my generation were adolescents, Japan was still a terribly poor country.
+1237|Phew......
+1238|At your age, Boku, || your father and mother still seem perfect, don't they?
+1239|I don't really get what you mean.
+1240|For me, my parents were... || at least until I was past thirty, || people in whom I couldn't find any human failing or any great pretense. || In a sense, they were close to perfect... || But now that it's my turn to be the parent, || my fifteen-year-old daughter has gone and broken straight through my lines...
+1241|...Did you lose?
+1242|Maybe I did... || But perhaps parents have been like this in every age.
+1243|Even the breeze through the veranda feels half-hearted today...
+1244|Kaoru, beer... Never mind. I don't want one after all.
+1245|I haven't been getting enough sleep lately...
+1246|It's about time I fired up the climbing kiln.
+1247|Huh? When, when?
+1248|Soon...
+1249|The climbing kiln... It's hot work in summer.
