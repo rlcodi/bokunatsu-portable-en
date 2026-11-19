@@ -107,6 +107,10 @@ def kite_menu(e,jal_new):
     put32(0x088659b8,0xAFA00000,0xAFA20000)                  # y pitch 0
     put32(0x088659c0,jal_new('spec_name'),0x0c000000|((0x0881b350-BASE)>>2))
     put32(0x0886597c,jal_new('spec_copy'),0x0c000000|((0x08869c1c-BASE)>>2))   # name copy routine: 12 glyphs into the object -> 47 glyphs into a private buffer
+    # subtitle window backdrop: the dark panel was a full-height strip at x 416-480 (the old vertical text column) with a soft left edge.
+    # For the subtitle window (+0x7c == 0) draw a full-width band at the bottom with a soft top edge instead.
+    put32(0x0881c424,jal_new('win_rect'),0x0c000000|((0x0882e4bc-BASE)>>2))
+    put32(0x0881c538,jal_new('win_edge')&0x03ffffff|0x08000000,0x08000000|((0x0881c3c8-BASE)>>2))
     put32(0x08827808,jal_new('kite_h')&0x03ffffff|0x08000000,0x08000000|((0x088277e8-BASE)>>2))   # j 0x088277e8 -> j cave (relocation slot kept)
 
 def patch(elf,x0=16,y0=200,adv=None,lineh=None,fontmap=None):
@@ -140,7 +144,7 @@ def patch(elf,x0=16,y0=200,adv=None,lineh=None,fontmap=None):
         for n,v in k.items(): src=src.replace('<%s>'%n,str(v&0xffffffff))
         src=src.replace('<HI:','@@')  # (unused marker)
         return mips.asm(src)
-    k0={n:0 for n in ('Kget_hi','Kget_lo','Kbuf_hi','Kbuf_lo','Kbufn_hi','Kbufn_lo','Kspec_hi','Kspec_lo','Kfort_hi','Kfort_lo','Abase_hi','Abase_lo','Abuf_hi','Abuf_lo','Ktbl3_hi','Ktbl3_lo','Ktbl2_hi','Ktbl2_lo','Ktbl_hi','Ktbl_lo','Kloop_hi','Kloop_lo','Kstr_hi','Kstr_lo','Kfn_hi','Kfn_lo')}
+    k0={n:0 for n in ('Kwr_hi','Kwr_lo','Kwe_hi','Kwe_lo','Kget_hi','Kget_lo','Kbuf_hi','Kbuf_lo','Kbufn_hi','Kbufn_lo','Kspec_hi','Kspec_lo','Kfort_hi','Kfort_lo','Abase_hi','Abase_lo','Abuf_hi','Abuf_lo','Ktbl3_hi','Ktbl3_lo','Ktbl2_hi','Ktbl2_lo','Ktbl_hi','Ktbl_lo','Kloop_hi','Kloop_lo','Kstr_hi','Kstr_lo','Kfn_hi','Kfn_lo')}
     blob,lab=build_blob(k0)
     rel=lambda a: a-BASE
     def hl(v): v&=0xffffffff; return v>>16,v&0xffff
@@ -153,7 +157,7 @@ def patch(elf,x0=16,y0=200,adv=None,lineh=None,fontmap=None):
     soff=(len(blob)+3)&~3
     L1=va+lab['kite_l1']; R=rel(0x08848e44)
     kk={}
-    for n,v in (('Kspec',rel(0x0881b350)-(va+lab['spec_l1'])),('Kfort',rel(0x0881bbfc)-(va+lab['fort_l1'])),('Ktbl',rel(0x8919bdc)-L1),('Ktbl2',rel(0x8919bdc+400)-L1),('Ktbl3',rel(0x8919bdc+480)-L1),('Kloop',rel(0x88277e8)-L1),('Kstr',va+soff-R),('Kfn',rel(0x088272c0)-R)):
+    for n,v in (('Kwr',rel(0x0882e4bc)-(va+lab['wr_l1'])),('Kwe',rel(0x0881c3c8)-(va+lab['we_l1'])),('Kspec',rel(0x0881b350)-(va+lab['spec_l1'])),('Kfort',rel(0x0881bbfc)-(va+lab['fort_l1'])),('Ktbl',rel(0x8919bdc)-L1),('Ktbl2',rel(0x8919bdc+400)-L1),('Ktbl3',rel(0x8919bdc+480)-L1),('Kloop',rel(0x88277e8)-L1),('Kstr',va+soff-R),('Kfn',rel(0x088272c0)-R)):
         kk[n+'_hi'],kk[n+'_lo']=hl(v)
     sbuf=(soff+len(sdata)+15)&~15                      # 128-byte specimen-name buffer
     for n,v in (('Kget',rel(0x08869c8c)-(va+lab['sc_l1'])),('Kbuf',(va+sbuf)-(va+lab['sc_l1'])),('Kbufn',(va+sbuf)-(va+lab['spec_l1']))): kk[n+'_hi'],kk[n+'_lo']=hl(v)
@@ -280,6 +284,51 @@ pl_end:
   srl  v0,v0,4
 """
 KITE_CODE = """
+win_rect:                   ; window backdrop rectangle (a0=x0 a1=y0 a2=x1 a3=y1); subtitle window -> bottom band 0,196-480,272
+  lw   t4,0x7c(s0)
+  bne  t4,zero,wr_go
+  nop
+  li   a0,0
+  li   a1,188
+  li   a2,480
+  li   a3,272
+wr_go:
+  move t7,ra
+  bal  wr_l1
+  nop
+wr_l1:
+  lui  t9,<Kwr_hi>
+  ori  t9,t9,<Kwr_lo>
+  addu t9,t9,ra
+  move ra,t7
+  jr   t9
+  nop
+win_edge:                   ; soft edge quad (v0 = vertices): subtitle window -> horizontal fade along y 180-196 across the screen
+  lw   t4,0x7c(s0)
+  bne  t4,zero,we_ret
+  nop
+  sh   zero,4(v0)
+  li   t4,172
+  sh   t4,6(v0)
+  sh   zero,0x10(v0)
+  li   t4,188
+  sh   t4,0x12(v0)
+  li   t5,480
+  sh   t5,0x1c(v0)
+  li   t4,172
+  sh   t4,0x1e(v0)
+  sh   t5,0x28(v0)
+  li   t4,188
+  sh   t4,0x2a(v0)
+we_ret:
+  bal  we_l1
+  nop
+we_l1:
+  lui  t9,<Kwe_hi>
+  ori  t9,t9,<Kwe_lo>
+  addu t9,t9,ra
+  jr   t9
+  nop
 spec_name:                  ; specimen name label call: a2 = private name buffer, y += 17, then tail-call the label routine 0x0881b350 (ra preserved)
   addiu a1,a1,17
   move t7,ra

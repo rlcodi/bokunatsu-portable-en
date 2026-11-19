@@ -5,6 +5,8 @@ NAMES = {'ボク': 'Boku', 'おじ': 'Uncle', 'おば': 'Aunt', '詩': 'Shirabe'
          '少年': 'Boy', '女性': 'Woman', '父': 'Dad', 'お坊さん': 'Monk', '少女': 'Girl', '知らないおじさん': 'Stranger',
          'ボク＋詩': 'Boku & Shirabe', '?ボク': 'Boku', '?萌': 'Moe', '': ''}
 WIDTH, MAXL = 416, 3
+# the first line of every page after a page break (0x8002) is drawn 16 px further left than the text origin (measured in-game); later lines and the first page are not
+FIRST_SHIFT = 16
 CENTER = 240 - 16      # screen centre relative to the text origin x0=16
 
 
@@ -83,7 +85,7 @@ def load(S, EN, rev, width=WIDTH):
                     if pi: out += [0x8002, ps[pi - 1]]
                     for li, l in enumerate(pg):
                         if li: out.append(0x8001)
-                        out += spacer(CENTER - sum(adv(c) for c in l) // 2) + l
+                        out += spacer(CENTER - sum(adv(c) for c in l) // 2 + (FIRST_SHIFT if li == 0 and pi > 0 else 0)) + l
             repl[bytes.fromhex(r['raw'])] = struct.pack('<%dH' % len(out), *out)
         except KeyError as e:
             problems.append('%d: no glyph %r' % (r['id'], e.args[0]))

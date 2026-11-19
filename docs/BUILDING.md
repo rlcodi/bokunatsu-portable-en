@@ -24,7 +24,7 @@ Scripts in `tools/` and `harness/` read `S` from the `BNN_S` env var (default: t
 9. `python3 tools/build_patch.py S x S/patched.iso` (about half a minute).
 10. `xdelta3 -e -9 -s original.iso S/patched.iso bnn-portable-en-wip.xdelta`, then decode it again and compare SHA-1s.
 
-Build 36 gives patched SHA-1 `182b896a47ca1316af93cdb66a1de325f5c57b17`. A clean rebuild from build 36's sources should match it.
+Build 39 gives patched SHA-1 `514eea55b0c464406274d0c5c3d58f093c35235f`. A clean rebuild from build 39's sources should match it.
 
 ## Testing in PPSSPP
 

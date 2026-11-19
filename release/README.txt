@@ -1,5 +1,5 @@
 Boku no Natsuyasumi Portable (PSP, UCJS10038) - English patch, WORK IN PROGRESS
-Build: 2026-11-16 (test_v36)
+Build: 2026-11-19 (test_v39)
 
 Apply to an untouched Japanese ISO:
   size   397,508,608 bytes
@@ -7,9 +7,11 @@ Apply to an untouched Japanese ISO:
 
   xdelta3 -d -s "original.iso" bnn-portable-en-wip.xdelta "patched.iso"
 
-Patched ISO SHA-1: 182b896a47ca1316af93cdb66a1de325f5c57b17
+Patched ISO SHA-1: 514eea55b0c464406274d0c5c3d58f093c35235f
 
 What is translated
+- XMB: the game title, the icon (English caption) and the splash/background text (PIC0) are translated; the logo stays Japanese.
+- Subtitles now sit on a dark band along the bottom of the screen instead of the old right-hand strip, and every line is centred.
 - All scene dialogue, narration, hints and choice text (2,288 unique messages), shown as centred subtitles.
 - Menu text: item names and notes, insect names and specimen entries, kite names, fishing notes, bug sumo and
   bug cage prompts, save/load and Favorites messages, Summer Memories menus, settings options, controls help.

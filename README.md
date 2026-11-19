@@ -2,7 +2,7 @@
 
 English patch for **ぼくのなつやすみ ポータブル ムシムシ博士とてっぺん山の秘密!!** (PSP, Japan, UCJS10038).
 
-**Status: work in progress. Build 36.** Everything you read in the game is translated, and I've gone through most
+**Status: work in progress. Build 39.** Everything you read in the game is translated, and I've gone through most
 screens in an emulator. A few things aren't checked yet and a few things are still Japanese. Details in
 [docs/STATUS.md](docs/STATUS.md).
 
@@ -24,7 +24,7 @@ xdelta3 -d -s "original.iso" bnn-portable-en-wip.xdelta "Boku no Natsuyasumi Por
 shasum "Boku no Natsuyasumi Portable (English WIP).iso"
 ```
 
-The patched ISO should come out as SHA-1 `182b896a47ca1316af93cdb66a1de325f5c57b17`.
+The patched ISO should come out as SHA-1 `514eea55b0c464406274d0c5c3d58f093c35235f`.
 If it doesn't, your original isn't the right one.
 
 ## Play it

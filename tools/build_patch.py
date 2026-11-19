@@ -136,5 +136,7 @@ import eboot_patch
 kw = dict(a.split('=') for a in sys.argv[4:])
 elf = eboot_patch.patch(open(S + '/bnn-x/PSP_GAME/SYSDIR/BOOT.BIN', 'rb').read(), fontmap=ENALL, **{k: int(v) for k, v in kw.items()})
 out = B.patch_iso(iso, bytes(img), bytes(dfi.idx), tab, eboot=elf)
+import xmb
+out = xmb.apply(out, xmb.render(S, out))   # XMB icon, background text and game title
 open(out_iso, 'wb').write(out)
 print('wrote', out_iso, len(out))

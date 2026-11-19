@@ -1,6 +1,6 @@
 # Translation status
 
-Build 36. Patched SHA-1 `182b896a47ca1316af93cdb66a1de325f5c57b17`. Last updated 2026-11-16.
+Build 39. Patched SHA-1 `514eea55b0c464406274d0c5c3d58f093c35235f`. Last updated 2026-11-19.
 
 Short version: it's fully translated, I've checked most of the game in an emulator, and a handful of screens
 haven't been seen yet. It's not a finished release.
@@ -20,6 +20,8 @@ haven't been seen yet. It's not a finished release.
   specimen names and notes, the bedtime prompt, the "Let it go?" prompt, the species list panel, the cage notices,
   the kite pause menu, the "Keep / Let go" prompt, the fortune window, the kite crash box, and every layout of the menu widget
   the story choices use. Boxes were resized to fit.
+- **XMB:** game title, icon caption and the splash text are English (the Japanese logo is kept, like on the title screen).
+- **Subtitles:** drawn on a dark band at the bottom of the screen, every line centred (checked against the opening arrival scene).
 - **Fonts:** M PLUS Rounded 1c for dialogue and menus, Patrick Hand for diary pages.
 
 ## Seen working in an emulator
