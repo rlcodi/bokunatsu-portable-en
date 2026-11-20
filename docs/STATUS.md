@@ -1,6 +1,6 @@
 # Translation status
 
-Build 39. Patched SHA-1 `514eea55b0c464406274d0c5c3d58f093c35235f`. Last updated 2026-11-19.
+Build 40. Patched SHA-1 `3eb71c02b4be79dc5e624221fd38d4cd33afc631`. Last updated 2026-11-19.
 
 Short version: it's fully translated, I've checked most of the game in an emulator, and a handful of screens
 haven't been seen yet. It's not a finished release.
@@ -22,6 +22,7 @@ haven't been seen yet. It's not a finished release.
   the story choices use. Boxes were resized to fit.
 - **XMB:** game title, icon caption and the splash text are English (the Japanese logo is kept, like on the title screen).
 - **Subtitles:** drawn on a dark band at the bottom of the screen, every line centred (checked against the opening arrival scene).
+- **Review pass (build 40):** every one of the 2,288 messages was re-read against the Japanese in context, including the ~50 short "..." fragments. Fixed nine lines (a garbled "let's eat" fragment, the Baumkuchen mix-up, "drink your mama's milk", the longhorn beetle, the blood-rain joke and a few clunky phrasings). Still an AI translation with no native-speaker review.
 - **Fonts:** M PLUS Rounded 1c for dialogue and menus, Patrick Hand for diary pages.
 
 ## Seen working in an emulator

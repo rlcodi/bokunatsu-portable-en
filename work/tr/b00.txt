@@ -57,7 +57,7 @@
 56|So, what interesting question have you found for me today?
 57|That came out weird. || But field research really makes you hungry...
 58|Oh? Hello! || I'm Yoshiko. Nice to meet you!
-59|Today I'm the vice principal's field research assistant. || Um... feel-good walk?
+59|Today I'm the vice principal's field research assistant. || Um... Baumkuchen?
 60|Fieldwork.
 61|That's the one!
 62|Now then, any interesting questions again today?
@@ -124,7 +124,7 @@
 123|It's a house || Apartment, second floor || Condo, third floor
 124|Oh. That's plainer than I thought. So buildings are the same as out here...
 125|Wow, no yard at all? Now that's the big city!
-126|The third floor! || Wooow. You live in a town where you can go up as high as our school roof || and not get in trouble for it? || I think a little bit a whole lot more of you now.
+126|The third floor! || Wooow. You live in a town where you can go up as high as our school roof || and not get in trouble for it? || I just gained a little bit... no, a whole lot of respect for you.
 127|Speaking of lively, the frogs make quite a racket around here at night. || Heh, in early spring, I mean.
 128|When the snow melts and spring comes, || and Saginosato down below gets busy with rice planting... || that's when the frogs start singing up here...
 129|Hey, are you from the city?

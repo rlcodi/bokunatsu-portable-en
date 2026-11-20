@@ -4,7 +4,7 @@ You don't need this to just play. Grab the xdelta from the Releases page and fol
 This is for rebuilding, tweaking text, or poking around.
 
 You need: your own Japanese ISO (UCJS10038), Python 3, `xdelta3`, `bsdtar` (or any ISO extractor), `swiftc` (macOS) for two small helpers.
-Nothing from the game is in this repo. Everything below is made from your ISO.
+Nothing from the game's files is in this repo (the one exception is `docs/translation-table.tsv`, the script text for proofreading). Everything below is made from your ISO.
 
 `S` = an empty scratch folder. Keep game files out of the repo.
 Scripts in `tools/` and `harness/` read `S` from the `BNN_S` env var (default: the current folder).
@@ -24,7 +24,7 @@ Scripts in `tools/` and `harness/` read `S` from the `BNN_S` env var (default: t
 9. `python3 tools/build_patch.py S x S/patched.iso` (about half a minute).
 10. `xdelta3 -e -9 -s original.iso S/patched.iso bnn-portable-en-wip.xdelta`, then decode it again and compare SHA-1s.
 
-Build 39 gives patched SHA-1 `514eea55b0c464406274d0c5c3d58f093c35235f`. A clean rebuild from build 39's sources should match it.
+Build 40 gives patched SHA-1 `3eb71c02b4be79dc5e624221fd38d4cd33afc631`. A clean rebuild from build 40's sources should match it.
 
 ## Testing in PPSSPP
 

@@ -1,5 +1,5 @@
 Boku no Natsuyasumi Portable (PSP, UCJS10038) - English patch, WORK IN PROGRESS
-Build: 2026-11-19 (test_v39)
+Build: 2026-11-19 (test_v40)
 
 Apply to an untouched Japanese ISO:
   size   397,508,608 bytes
@@ -7,7 +7,7 @@ Apply to an untouched Japanese ISO:
 
   xdelta3 -d -s "original.iso" bnn-portable-en-wip.xdelta "patched.iso"
 
-Patched ISO SHA-1: 514eea55b0c464406274d0c5c3d58f093c35235f
+Patched ISO SHA-1: 3eb71c02b4be79dc5e624221fd38d4cd33afc631
 
 What is translated
 - XMB: the game title, the icon (English caption) and the splash/background text (PIC0) are translated; the logo stays Japanese.

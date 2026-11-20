@@ -5,8 +5,8 @@
 2043|Hey, do you have a penny candy shop where you live too?
 2044|Well, sure. Why?
 2045|This place... is so far out in the sticks there's no candy shop. || And me so sensitive to the latest trends.
-2046|I've got a feeling there's going to be a bloodbath today.
-2047|A blood bath? Like, in the tub?
+2046|I've got a feeling it's going to rain blood today.
+2047|Blood candy?
 2048|Yes. I've got a bad feeling about it.
 2049|A great, great misfortune is coming to somebody!
 2050|Why do the worker ants keep working for the queen, || day after day, without a word of complaint?
@@ -165,7 +165,7 @@
 2203|I doubt you know what that means, but... it's personality that counts!
 2204|I suppose there's nothing better than having money... || I've never been rich, so honestly, I wouldn't know.
 2205|As a matter of fact, your aunt is a year older than me. || It was an arranged marriage, and right up until we signed the papers I believed she was younger.
-2206|She'd pulled the wool over my eyes. Sheep's wool, cat's, dog's, tanuki's, the lot... || Ah! That stays absolutely secret from your aunt!
+2206|It seems she'd been putting on all sorts of acts. A cat, a dog, a tanuki, you name it... || Ah! That stays absolutely secret from your aunt!
 2207|The kiln's all ready. || I'll light it in the evening, so come and watch, Boku.
 2208|Okay. I can't wait.
 2209|I'm opening the kiln tonight, so come and see. || It'll be heaps and heaps of treasure!
