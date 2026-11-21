@@ -1,6 +1,6 @@
 import os
 import sys,time,json,struct,socket
-S=os.environ.get('BNN_S','.')   # scratch/work dir (see docs/BUILDING.md)
+S=os.environ.get('BNN_S','.')   # scratch/work dir
 sys.path.insert(0,S+'/tools'); import session as s
 def wait_step(w,deadline):
     """Return stepping event or None when deadline passes."""

@@ -1,7 +1,7 @@
 # Dev notes
 
 Reverse-engineering and testing notes, oldest first inside each batch. Rough, written while working.
-For where the translation stands, see [STATUS.md](STATUS.md). To rebuild, see [BUILDING.md](BUILDING.md).
+For where the translation stands, see [STATUS.md](STATUS.md).
 
 Addresses are PSP memory addresses in the game's main module (loaded at 0x08804000). `harness/` holds the scripts mentioned here.
 `private/` is a local folder with your own game files and saves. It is git-ignored. Never commit or share anything from it.
@@ -12,7 +12,7 @@ Quick map of the big findings:
 - The vertical text menus are one widget with 14 layouts. All of them are patched to horizontal rows. `harness/forcer.py` draws each one, `harness/fitcheck.py` measures them.
 - The audit build (`BNN_AUDIT=1`) plus `harness/audit.py` finds vertical or off-screen text.
 
-## Session note 2026-11-14 (later): scene warp + fixes
+## Session note 11/14/26 (later): scene warp + fixes
 
 - **Scene warp works.** Boot into the debug menu (`harness/dbgmenu.py`), page 0 item 0 = `mode_map` (CIRCLE). It shows an invisible map-select UI.
   `harness/setscene.py H20000` then writes the scene name into that UI (letter, area, time 0-2, variant are 4 ints on the UI thread's stack,
@@ -30,7 +30,7 @@ Quick map of the big findings:
 - Still open: fishing play screens, sumo matches (need caught beetles), fortunes, filled specimen page, Jumbo header, kite "Crash!" placement, viewers needing a finished save,
   real-PSP test, optional polish list at the top.
 
-## Session note 2026-11-16 (Summer Memories viewers verified with the finished save)
+## Session note 11/16/26 (Summer Memories viewers verified with the finished save)
 
 - **Reliable route to the viewers:** `dbgmenu.py <iso> 891e854` (mode_load_memory) -> wait ~9 s -> circle (slot) -> left (Yes) -> circle -> wait ~16 s -> menu with real data. No title screen, so the attract demo cannot interfere.
 - Menu cursor resets to the top after leaving a viewer; `cross` moves it to Back. From the specimen page: circle on Back -> boxes -> `cross` -> menu (then `left` puts the cursor back on the list).
@@ -38,7 +38,7 @@ Quick map of the big findings:
   **Kites entry:** circle did nothing (probably locked in this save). **Favorites:** not opened (needs a Favorites file; "No Favorites file" message already seen in English).
 - Open still: fish names / Jumbo header (this save has no fish), sumo matches, real script choice menus, Species List side panel hover, tilted book frames, movie credits.
 
-## Session note 2026-11-16 (finished-game save, specimen names, v36)
+## Session note 11/16/26 (finished-game save, specimen names, v36)
 
 - **Finished-game save obtained** (user downloaded it from GameFAQs save #13574, 246 KB zip, folder UCJS10038S001N, DATA.BIN 8,564 bytes, PARAM.SFO title "1)ボクの思い出 8月31日", playtime 06:51:13).
   Copy kept at `private/save_complete/` (never distribute). Install: copy the folder over `S/home/.config/ppsspp/PSP/SAVEDATA/UCJS10038S001N` (the test save is backed up at `S/save_testbackup` and in `private/save/`).
@@ -51,7 +51,7 @@ Quick map of the big findings:
 - Species List grid shows the collected bugs; hovering a collected species to check the side panel was not completed (cursor moves in cell units).
 - Not yet seen: Kites/Items/Ending/Favorites viewers (sequence desync), sumo matches, fish names, real script choice menus.
 
-## Session note 2026-11-16: fortune window fixed (v34), verified by the user in the live game
+## Session note 11/16/26: fortune window fixed (v34), verified by the user in the live game
 
 - The fortune-telling Jizo shrine is scene A11000: step up to the offering plate (net away), face the statues, press X. fortunewatch2.py (breakpoint 0x08827a38) captured the first run.
 - v32 problem: the window box was in the middle but the word ("Luckier!") was drawn at the bottom-left, because the dialogue-subtitle patch (cave at 0x0881bf14, window +0x7c == 0) pins every window's text to x16,y200.
@@ -59,14 +59,14 @@ Quick map of the big findings:
   box 180,78 size 120x50 (calls at 0x08827b24..3c); text x 216 y 79 (0x08827b14/1c). User confirmed v34 is centered. All four result words are 3 cells (48 px) wide.
 - Note for scripts: macOS has no `setsid`; start background watchers with `(nohup python3 x.py ... &)`. Under zsh an unmatched `rm -f glob` aborts the line (use `setopt nonomatch`).
 
-## Session note 2026-11-15 (community saves: none found)
+## Session note 11/15/26 (community saves: none found)
 
 - Searched for a complete/late-game save (user approved using community saves). save-editor.com board threads for this game exist (savedata num=2121, PPSSPP state num=2122) but contain only the admin
   placeholder posts, no uploads. uu.getuploader.com/psp_savedata is blocked (403/Cloudflare 1005) for scripted access; the ameblo "700+ saves" blog is a generic 2009 promo with no verifiable file. Nothing downloaded.
 - Ideas left for the Summer Memories viewers: find what the "finished game" check reads (message index 4 of saveload_normal t3, shown for mode byte +0xA1 == 2 in the save/load mode object, common loader 0x08845104)
   and set that state before saving from mode_oti, or decrypt/edit DATA.BIN (needs the savedata key from the sceUtilitySavedata param).
 
-## Session note 2026-11-15 (Jizo / fortune, real catch prompt)
+## Session note 11/15/26 (Jizo / fortune, real catch prompt)
 
 - **Real catch prompt verified in v32:** a net swing at the shrine scene (A11000) opened the real catch screen; "Keep / Let go" showed as two horizontal rows in the small lower-right box.
 - **Fortune = the fortune-telling Jizo shrine** (script lines mention it in A11000 and H09000). Warp with `harness/setscene.py A11000`; the shrine (three statues, offering plate) is the first view.
@@ -74,7 +74,7 @@ Quick map of the big findings:
   `harness/fortunewatch2.py <secs>` arms a breakpoint on the fortune routine 0x08827a38 and saves 20 screenshots (fwx_NN.png) when it fires. Try by hand with the watcher running.
 - The fortune window text goes through the message-window label path, where the "always horizontal" patch (0x0881bf6c) applies, so it is probably already horizontal; unverified.
 
-## Session note 2026-11-15 (kite crash fixed, v32)
+## Session note 11/15/26 (kite crash fixed, v32)
 
 - **Kite "Crash!"**: drawn by the kite status thread at 0x8849514 when the kite state struct (`*(thread obj+0xA4)`, found with a breakpoint at 0x8849564 -> s0) has byte +4 == 2 and halfword +0x4E in 0x5D..0xFD.
   Writing those two values (repeatedly) in kite mode shows it. It was three 16-px word slices stacked vertically in a tall box; v32 patches the label call at 0x8849690 (x pitch 16, y pitch 0),
@@ -83,7 +83,7 @@ Quick map of the big findings:
 - **Fortune results** ("Unlucky!/Lucky!/Luckier!/Jackpot!", words at 0x8919e74..0x8919e8c): drawn by the text-window object update at 0x08827a38 (created from script op handler via 0x08822b68;
   text set with 0x881bb68(a2=2), window rect via 0x881bac8/bd34/bd74 with x=227,y=55, 187,29 etc.). Likely the same vertical-slice problem as the crash box; NOT yet triggered or fixed.
 
-## Session note 2026-11-15 (jump to any mode)
+## Session note 11/15/26 (jump to any mode)
 
 - `harness/dbgmenu.py <iso> <entry-hex>` now takes the mode entry to start (default 0x891e1bc = debug menu). Entries are (func,name) pairs; full list from the dump:
   mode_map 891e574, mode_movie 891e75c, mode_newgame 891e764, mode_nikki 891e76c (picture diary), **mode_oti 891e7c4 (ending)**, mode_save 891e844, mode_load 891e84c,
@@ -96,7 +96,7 @@ Quick map of the big findings:
   shows the same message. A real finished-game file needs the real ending flags (not found).
 - title_viewers.py: the title route to Summer Memories is flaky because of the attract demo; the attempt landed in the intro movie.
 
-## Session note 2026-11-15 (fit check): prompts measured against their boxes
+## Session note 11/15/26 (fit check): prompts measured against their boxes
 
 - `harness/fitcheck.py` (needs the audit build, kite mode via goto_kite): forces the widest REAL strings through every widget layout with a matching item count (choices from tr/*.txt with the
   outline font map, cage.bms prompts and kite menu with the plain map), reads the audit log for where glyphs were drawn, and compares with the box rectangle read from the game tables
@@ -108,7 +108,7 @@ Quick map of the big findings:
   not visible and not translation related.
 - Not yet seen live: real script choice, real catch prompt (see above), sumo matches, fortunes, kite crash, fish catch/Jumbo header.
 
-## Session note 2026-11-15 (later): vertical-text audit build
+## Session note 11/15/26 (later): vertical-text audit build
 
 - **Audit build:** `BNN_AUDIT=1 python3 tools/build_patch.py S x S/audit.iso` hooks all 11 `jal 0x088388c4` (glyph blit) call sites to a logger (cave `audit_log`) that
   stores (caller ra, x=a1, y=a2) of every glyph blit in a 2048-entry ring buffer at module offset printed by the build (0x12f2e0 in v31, abs 0x08933 2e0 = 0x8804000+0x12f2e0).
@@ -120,7 +120,7 @@ Quick map of the big findings:
   sumo matches, fortunes, kite crash, fish catch/Jumbo header, cage-full notice and specimen "Let it go?" (verified earlier in v25 by memory edits, label-routine paths unchanged).
   `harness/modes_audit.py <audit.iso>` runs the debug-menu mode tour; `titletest`/`kuchiki` entries failed to attach.
 
-## Session note 2026-11-15: all vertical pop-up menus fixed (v31)
+## Session note 11/15/26: all vertical pop-up menus fixed (v31)
 
 - **Menu widget audit:** every prompt drawn by the vertical menu widget (ctor 0x088272c0, glyph loop 0x08827768) has 14 layouts ("types", 8 box rows; tables 0x8919bdc positions,
   0x8919e34 boxes, 0x8919e0c first-type-per-row, 0x8919e14 item counts). The script's choice menus (54 of them, opcode handlers 33 and 70 in the table at 0x8919768; one handler
@@ -132,7 +132,7 @@ Quick map of the big findings:
 - Cursor limit for 2-option choices (third row is empty) is unchecked.
 - `mode_msg` in the debug menu needs voice_test files that are not on the disc (black screen); not usable.
 
-## Session note 2026-11-14 (fishing reached)
+## Session note 11/14/26 (fishing reached)
 
 - **Fishing area found:** CFishing (object size 0x2B40, created for every map at 0x881df9c, stored at mapobj+0x50) is active when the map name is in the table at 0x890fcf8
   ("H24", "A01", "B15", "D03"). `harness/setscene.py H24000` starts the waterfall pool scene (the scripts may move you to H23000/H22000 afterwards; at the first view
@@ -147,7 +147,7 @@ Quick map of the big findings:
   not screen). The lure/hit logic was not located. The fishing play screen has no translated-image job (imgbuild `fishing` is only the desk tackle page); fish names show up
   in the Jumbo Box / specimen lists (ui.txt 62-64: Char, Rainbow Trout, Yamame Trout), so a real catch or a fake Jumbo record is needed to see them.
 
-## Session note 2026-11-14 (last): more checks, roadblocks
+## Session note 11/14/26 (last): more checks, roadblocks
 
 - Title menu is 2 rows (New Game / Continue; Summer Memories / Settings / Sneak Peek): `down` from New Game reaches Summer Memories. Opening it shows English
   "Checking the Memory Stick..." and, with only a day-2 save, "No file from a finished game was found." (both verified). The viewers need a finished-game file;
@@ -158,7 +158,7 @@ Quick map of the big findings:
 - Fishing trigger: no script text identifies it (no "bite/caught" messages in script_v3.json), so it is an engine action spot. Next idea: find the caller of the
   CFishing creation (vtable 0x890ff78; code 0x8878b94..0x887ac78) with a breakpoint on its vtable store, then walk to a river bank until it fires.
 
-## Session note 2026-11-14: DEBUG MENU WARP FOUND (use this instead of walking)
+## Session note 11/14/26: DEBUG MENU WARP FOUND (use this instead of walking)
 
 The retail executable still contains the developer debug menu (mode table at 0x891e1bc, entries are (func, name) pairs, 8 bytes each).
 Its font file is not on the disc, so it draws NOTHING (screen stays black) but it takes input.

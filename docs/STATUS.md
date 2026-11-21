@@ -1,9 +1,10 @@
 # Translation status
 
-Build 40. Patched SHA-1 `3eb71c02b4be79dc5e624221fd38d4cd33afc631`. Last updated 2026-11-19.
+Build 40. Patched SHA-1 `3eb71c02b4be79dc5e624221fd38d4cd33afc631`. Last updated 11/19/26.
 
-Short version: it's fully translated, I've checked most of the game in an emulator, and a handful of screens
-haven't been seen yet. It's not a finished release.
+Short version: fully playable. All the text has been translated programmatically and is now being confirmed
+on a physical PSP. Some screens are still unverified, so display issues may still turn up. Corrections and
+bug reports are welcome.
 
 ## Done
 
@@ -43,7 +44,7 @@ A test build that logs every glyph drawn found no vertical or off-screen text on
 - Real story choice menus. The layouts are checked, but I haven't watched one in an actual scene.
 - The Kites and Favorites entries in Summer Memories.
 - The species list side panel with a real collected bug (checked earlier with edited memory).
-- A real PSP. All of this was tested in PPSSPP.
+- A physical PSP. Testing there is in progress; not every screen has been confirmed on hardware yet.
 
 ## Still Japanese (on purpose or not done)
 
@@ -56,7 +57,8 @@ A test build that logs every glyph drawn found no vertical or off-screen text on
 
 ## Known rough spots
 
-- It's a first-pass translation, drafted with AI help. Names and jokes may not match what a human translator would pick. Tell me what reads wrong.
+- The translation was done by AI with no native-speaker review. Names and jokes may not match what a human
+translator would pick. Tell me what reads wrong.
 - The 2-option story choices have an empty third row in the layout they use. I haven't checked how the cursor behaves there.
 - Some long names are tight in the species list panel.
 

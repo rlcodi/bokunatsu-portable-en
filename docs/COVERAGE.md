@@ -1,4 +1,4 @@
-# Coverage checklist (built 2026-11-14 from fan guides + automated scans)
+# Coverage checklist (built 11/14/26 from fan guides + automated scans)
 
 Kept spoiler-free on purpose: feature types only, no story details. Sources: lemono.jp (area/event data), gorillawiki and h1g.jp wiki
 (search summaries; both returned 403 to direct fetch), retro-game-fan hatenablog chart, GameFAQs Portable Q&A.

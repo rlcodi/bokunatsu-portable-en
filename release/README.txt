@@ -1,54 +1,138 @@
-Boku no Natsuyasumi Portable (PSP, UCJS10038) - English patch, WORK IN PROGRESS
-Build: 2026-11-19 (test_v40)
+================================================================================
+ BOKU NO NATSUYASUMI PORTABLE - ENGLISH TRANSLATION PATCH
+ ぼくのなつやすみ ポータブル ムシムシ博士とてっぺん山の秘密!!
+ PSP / UCJS10038 / JPN / BUILD 40 / XDELTA3
+================================================================================
 
-Apply to an untouched Japanese ISO:
-  size   397,508,608 bytes
-  SHA-1  c7c9549fe565ee2702512a93a97353be208dd2cd
+ RELEASE INFO
+ ..............................................................................
+   ROM .......... Boku no Natsuyasumi Portable (Japan)
+   PLATFORM ..... Sony PlayStation Portable
+   ID ........... UCJS10038
+   REGION ....... Japan
+   BUILD ........ 40
+   FORMAT ....... xdelta3 patch - no game data included
+   SOURCE ....... https://github.com/rlcodi/bokunatsu-portable-en
 
-  xdelta3 -d -s "original.iso" bnn-portable-en-wip.xdelta "patched.iso"
+ SOURCE IMAGE
+ ..............................................................................
+   Untouched Japanese ISO only:
+     size   397,508,608 bytes
+     SHA-1  c7c9549fe565ee2702512a93a97353be208dd2cd
 
-Patched ISO SHA-1: 3eb71c02b4be79dc5e624221fd38d4cd33afc631
+ APPLYING THE PATCH
+ ..............................................................................
+   Command line:
 
-What is translated
-- XMB: the game title, the icon (English caption) and the splash/background text (PIC0) are translated; the logo stays Japanese.
-- Subtitles now sit on a dark band along the bottom of the screen instead of the old right-hand strip, and every line is centred.
-- All scene dialogue, narration, hints and choice text (2,288 unique messages), shown as centred subtitles.
-- Menu text: item names and notes, insect names and specimen entries, kite names, fishing notes, bug sumo and
-  bug cage prompts, save/load and Favorites messages, Summer Memories menus, settings options, controls help.
-- Picture text: title menu and subtitle, settings screen, desk-menu and other speech bubbles, plaques and buttons,
-  fishing labels, sumo result cards and winning-move names, the specimen page, radio exercise card, the 8 kite book pages, the 17 insect field guide pages
-  (day and night), both book covers, all 98 picture diary pages, the kite-flying gauges and the ending caption.
-- Text stored in the executable: the "Caught m/d" line and "No specimens yet" in the bug cage, win/loss marks,
-  fortune results (the shrine fortune window, seen on screen; the bug name on a filled specimen page, now a full horizontal line, seen on screen), the kite crash message (now a horizontal "Crash!" box, seen on screen) and fish names. Specimen page notes and the bedtime
-  "Write your diary and go to bed?" prompt are now drawn horizontally (answers read No / Yes, matching the
-  left/right keys). The specimen "Let it go?" prompt, the Species List side panel (name and note) and the
-  bug cage's "cage and Jumbo Box are both full" notice are drawn horizontally too. The picture-diary notebook
-  cover label is translated. Every pop-up menu built by the game's vertical menu widget (the kite pause menu, the bug-catch "Keep / Let go"
-  prompt, and the story's choice menus) is now laid out as horizontal English rows in a resized box; the sumo bug-cage screen's "Bug Swap Notebook" cover and the four preview pictures in the Summer
-  Memories menu (diary, specimens, kite book) are redrawn in English.
+     xdelta3 -d -s "original.iso" bnn-portable-en.xdelta "patched.iso"
 
-Not done yet
-- Crayon captions drawn inside some diary pictures, the two tilted frames of each book-opening animation,
-  small publisher/credit lines on the book covers, the notebook brand title, wall posters and a calligraphy
-  scroll painted into the storehouse background, the Sneak Peek
-  trailer's notice text and the Japanese game logo are left as they are.
-- Checked on screen in PPSSPP: opening scenes, title menu, Summer Memories flow, settings, controls help, desk menu,
-  item list, bug kit boxes, bug cage header, empty specimen page, dinner and bedtime scenes, bedtime prompt,
-  picture diary pages for Aug. 1 and 2, saving, Continue and the load screen, examine hints, the Items screen,
-  the empty Jumbo Box, specimen tool bubbles, the "Let it go?" prompt, the Species List panel and the cage-full
-  notice (the last three were brought up by editing memory, not by playing to them).
-  Also seen in game (reached through the game's own hidden debug menu): the kite-flying screen and its HUD, the kite
-  pause menu, the Change-kite list, the sumo bug-cage screen and the Summer Memories menu with its previews.
-  Not yet seen in game: fishing play screens, bug sumo matches, the translated notebook cover, a filled specimen
-  page, the Jumbo Box header, sumo move names, win/loss marks, fortunes, fish names, the
-  Summer Memories viewers (they need a finished save) (these
-  executable strings were rendered offline with the built font and compose correctly, but their on-screen
-  placement is unchecked). The Fishing Tackle screen has been seen in game. Not tested on a real PSP.
-- The executable in the patched ISO is the game's own unencrypted copy with small changes; a real PSP needs
-  custom firmware that accepts it.
+   Browser, no install - RomPatcher.js by Marc Robledo (xdelta supported,
+   files are processed locally and never uploaded):
 
-Fonts
-- M PLUS Rounded 1c (c) 2016 The Rounded M+ Project Authors, SIL Open Font License 1.1.
-- Patrick Hand (c) 2010-2012 Patrick Wagesreiter, SIL Open Font License 1.1 (see PatrickHand-OFL.txt).
+     1. Open https://www.marcrobledo.com/RomPatcher.js/
+     2. ROM file:    your untouched Japanese ISO
+     3. Patch file:  bnn-portable-en.xdelta
+     4. Apply patch, then download the patched ISO
 
-This patch contains no game data that can be used without the original disc image.
+   Expected patched ISO SHA-1:
+     3eb71c02b4be79dc5e624221fd38d4cd33afc631
+
+   Any mismatch means the source image is the wrong revision. Re-dump it; do
+   not report bugs from a mismatched build.
+
+ AI ASSISTANCE AND APPROACH
+ ..............................................................................
+   This is an AI-assisted translation. Both the translation and the review
+   pass were done by AI, working from a directive to keep the tone and feel of
+   the original. It has not been reviewed by a native speaker.
+
+   The goal is authenticity, not paraphrase:
+     - each speaker keeps their register and voice instead of being flattened
+       into one neutral English;
+     - the period and place feel of a rural 1970s summer is kept, without
+       modern slang;
+     - jokes and wordplay work in English where an equivalent exists, and stay
+       visible where it does not;
+     - names, honorifics and forms of address follow the Japanese rather than
+       being localised away.
+
+   Nothing was invented or padded, and text that could not be translated
+   confidently was left alone rather than guessed at. There has been no
+   native-speaker pass, so expect rough spots. Corrections are wanted:
+   see PROOFREADING.
+
+ WHAT IS TRANSLATED
+ ..............................................................................
+   - Story: all 2,288 dialogue, narration, hint and choice messages, drawn as
+     centred subtitles on a dark band along the bottom of the screen.
+   - Menus: all 459 interface text blocks - item names and notes, insect names
+     and specimen entries, kite names, fishing notes, bug sumo and cage
+     prompts, save/load and Favorites messages, Summer Memories menus,
+     settings and controls help.
+   - Graphics: title menu and subtitle, settings screen, speech bubbles,
+     plaques and buttons, fishing labels, sumo result cards and move names,
+     specimen page, radio exercise card, 8 kite book pages, 17 insect guide
+     pages (day and night), both book covers, all 98 picture diary pages, kite
+     gauges, ending caption.
+   - Executable strings: "Caught m/d", "No specimens yet", win/loss marks,
+     fortune results, the kite crash box, fish names.
+   - Vertical text: English is set horizontally everywhere it was found, with
+     boxes resized to fit - specimen names and notes, the bedtime prompt,
+     "Let it go?", the species list panel, cage notices, the kite pause menu,
+     "Keep / Let go", fortunes, and all 14 layouts of the story choice widget.
+   - XMB: game title, icon caption and splash text (Japanese logo kept).
+   - Fonts: M PLUS Rounded 1c for dialogue and menus, Patrick Hand for the
+     diary pages.
+
+ NOT DONE OR NOT VERIFIED
+ ..............................................................................
+   Still Japanese:
+     - staff credits and title cards burned into the opening/ending videos
+     - the Sneak Peek trailer
+     - the game logo on the title screen
+     - the covers in the tilted frames of the book-opening animation
+     - a few crayon captions inside diary pictures
+     - posters and a calligraphy scroll painted into the storehouse
+       background, and product art on items
+
+   Not yet seen on screen: fish names after a catch, bug sumo matches
+   (move names, win/loss marks), the Kites and Favorites viewers, real story
+   choice menus, a filled specimen page, the Jumbo Box header.
+
+   Checked in PPSSPP: opening scenes, title and settings, desk menu, item
+   list, bug kit and cage, empty specimen page, species list, bedtime and
+   diary, save/load and Continue, examine hints, kite flying and its pause
+   menu, fishing tackle page, bug catch prompt, sumo cage screen, fortunes,
+   ending save prompts, and the Summer Memories menu and viewers.
+
+   Confirmation on a physical PSP is in progress; not every screen has been
+   checked on hardware yet. Display issues may still turn up. Corrections and
+   bug reports are welcome.
+
+ PROOFREADING
+ ..............................................................................
+   docs/translation-table.tsv in the repository lists every story message -
+   id, speaker, source file, Japanese next to English. Fix a line by editing
+   its id in work/tr/<file>.txt and sending a PR or an issue.
+
+ REPORTING
+ ..............................................................................
+   Bugs, untranslated text, layout errors: open an issue with a screenshot.
+   https://github.com/rlcodi/bokunatsu-portable-en/issues
+
+ FONTS
+ ..............................................................................
+   M PLUS Rounded 1c (c) 2016 The Rounded M+ Project Authors, SIL OFL 1.1.
+   Patrick Hand (c) 2010-2012 Patrick Wagesreiter, SIL OFL 1.1
+   (see PatrickHand-OFL.txt).
+
+ LEGAL
+ ..............................................................................
+   Fan translation. Not affiliated with, sponsored by or endorsed by Sony
+   Computer Entertainment or the original developers and publishers. The
+   game and its art, music and text remain the property of their owners.
+
+   This patch contains no game data that can be used without the original
+   disc image. Do not ask for ISOs and do not post them.
+
+================================================================================

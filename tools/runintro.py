@@ -1,5 +1,5 @@
 import sys,time,subprocess,os,re
-T=os.environ.get('BNN_S','.')   # scratch/work dir (see docs/BUILDING.md)
+T=os.environ.get('BNN_S','.')   # scratch/work dir
 sys.path.insert(0,T+'/tools'); import fbshot,sheet
 iso,out,nframes=sys.argv[1],sys.argv[2],int(sys.argv[3])
 subprocess.run(['pkill','-x','PPSSPPSDL']); time.sleep(1.5)

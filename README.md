@@ -1,66 +1,107 @@
-# Boku no Natsuyasumi Portable: English patch
+# Boku no Natsuyasumi Portable: English translation patch
 
-English patch for **ぼくのなつやすみ ポータブル ムシムシ博士とてっぺん山の秘密!!** (PSP, Japan, UCJS10038).
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![AI-assisted](https://img.shields.io/badge/AI-assisted%20translation-blueviolet.svg)](#ai-assistance-and-approach)
+[![Release](https://img.shields.io/github/v/release/rlcodi/bokunatsu-portable-en)](../../releases/latest)
+[![Platform](https://img.shields.io/badge/Platform-PlayStation%20Portable-2E6DB4)](#requirements)
+[![Patch](https://img.shields.io/badge/Patch-xdelta3-informational)](#applying-the-patch)
 
-**Status: work in progress. Build 40.** Everything you read in the game is translated, and I've gone through most
-screens in an emulator. A few things aren't checked yet and a few things are still Japanese. Details in
-[docs/STATUS.md](docs/STATUS.md).
-
-This repo has no game files, art or code. You need your own copy of the Japanese game. You get the patch from the
-[Releases](../../releases) page.
-
-**Want to proofread?** [docs/translation-table.tsv](docs/translation-table.tsv) lists all 2,288 story messages, Japanese next to English
-(id, speaker, source file). Fix a line by editing its id in `work/tr/<file>.txt` and sending a PR or an issue. Note that the table contains the
-game's original Japanese script text, so remove it before ever making this repo public if that's a concern.
-
-## What you need
-
-- Your own Japanese disc image, untouched:
-  - size 397,508,608 bytes
-  - SHA-1 `c7c9549fe565ee2702512a93a97353be208dd2cd`
-- `xdelta3` (mac: `brew install xdelta`, Linux: your package manager, Windows: any xdelta patcher, like xdelta UI)
-- [PPSSPP](https://www.ppsspp.org/) or a PSP with custom firmware
-
-## Patch it
-
-```bash
-xdelta3 -d -s "original.iso" bnn-portable-en-wip.xdelta "Boku no Natsuyasumi Portable (English WIP).iso"
-shasum "Boku no Natsuyasumi Portable (English WIP).iso"
+```
+ GAME ........ ぼくのなつやすみ ポータブル
+               ムシムシ博士とてっぺん山の秘密!!
+ ROM ......... Boku no Natsuyasumi Portable (Japan)
+ PLATFORM .... Sony PlayStation Portable (PSP)
+ ID .......... UCJS10038
+ REGION ...... Japan
+ BUILD ....... 40
+ FORMAT ...... xdelta3 patch, no game data included
 ```
 
-The patched ISO should come out as SHA-1 `3eb71c02b4be79dc5e624221fd38d4cd33afc631`.
-If it doesn't, your original isn't the right one.
+**Fully playable.** All the text has been translated programmatically, and it is now being confirmed on a
+physical PSP. Display issues may still turn up. [docs/STATUS.md](docs/STATUS.md) has the current list. If
+something is broken or still in Japanese, open an issue with a screenshot; corrections and contributions are
+welcome.
 
-## Play it
+The repo holds no game files. The four screenshots are the only game art in it, and you need your own copy
+of the Japanese game. The patch is on the [Releases](../../releases) page.
 
-- **PPSSPP:** just open the ISO.
-- **PSP:** you need custom firmware. The patched ISO boots the game's plain, unencrypted executable, so stock firmware won't run it.
-  Put the ISO in your `ISO` folder like any other game.
-- Same game ID as the Japanese game, so your existing saves load. Back them up first anyway.
+## AI assistance and approach
 
-## What's translated
+This is an AI-assisted translation. Both the translation and the review pass were done by AI, working from a
+standing directive to keep the tone and feel of the original.
 
-All the dialogue, narration and choices (2,288 messages), every menu and prompt, the item and bug text,
-the picture diary, the book pages and guides, the speech bubbles, plaques and buttons, and the text hidden in the executable.
-Text is shown as centered subtitles, and the English is drawn horizontally even where the original was vertical.
+The aim is to stay close to the original instead of paraphrasing it. Each speaker keeps their own register
+and voice: the boy's narration, the adults' rural speech, the uncle's gruff asides. The English should feel
+like a rural summer in the 1970s and should not read like modern internet slang. Jokes and wordplay work in
+English where an equivalent exists; where it does not, the original joke stays visible. Names, honorifics and
+forms of address follow Japanese usage.
 
-## What's not done or not checked
+It has not been reviewed by a native speaker, so corrections are welcome.
 
-- Not seen in game yet: fish names after a catch, bug sumo matches, the Kites and Favorites viewers, and the choice menus in real story scenes.
-- Still Japanese: the credits burned into the opening and ending movies, the Sneak Peek trailer, the game logo,
-  the covers in the tilted book-opening frames, a few crayon captions in diary drawings.
-- Not tested on a real PSP yet.
+## Screenshots
 
-If you find something broken or still in Japanese, open an issue. A screenshot helps a lot.
+| | |
+|---|---|
+| ![Title menu](docs/screenshots/opening-01.png) | ![Dad: introduce yourself](docs/screenshots/opening-02.png) |
+| ![Desk menu](docs/screenshots/opening-03.png) | ![Uncle introduces the family](docs/screenshots/opening-04.png) |
 
-## Building it yourself
+## Requirements
 
-[docs/BUILDING.md](docs/BUILDING.md). Rough dev notes are in [docs/NOTES.md](docs/NOTES.md).
+- Your own untouched Japanese disc image:
+  - size `397,508,608` bytes
+  - SHA-1 `c7c9549fe565ee2702512a93a97353be208dd2cd`
+- A browser patcher such as [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/), or `xdelta3`
+- [PPSSPP](https://www.ppsspp.org/), or a PSP running custom firmware
 
-## Credits and legal
+## Applying the patch
 
-- Translation and tools made with help from Claude (Anthropic's AI). Text was reviewed in game, but it's still a first pass, so expect rough spots.
-- Fonts: M PLUS Rounded 1c and Patrick Hand, both SIL OFL 1.1 ([licenses/](licenses/)).
-- Code and translation text are MIT ([LICENSE](LICENSE)).
-- Fan project. Not affiliated with or endorsed by Sony or the original developers. The game and its art, music and text belong to their owners.
-  Don't ask for ISOs and don't post them here.
+### In a browser (no install)
+
+[RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/) by Marc Robledo handles xdelta and runs in the
+page, so the files never leave your machine.
+
+1. Open <https://www.marcrobledo.com/RomPatcher.js/>.
+2. **ROM file:** select your untouched Japanese ISO.
+3. **Patch file:** select `bnn-portable-en.xdelta`.
+4. **Apply patch**, then **Download** the patched ISO.
+
+### On the command line
+
+```bash
+xdelta3 -d -s "original.iso" bnn-portable-en.xdelta "Boku no Natsuyasumi Portable (English).iso"
+```
+
+## What is translated
+
+- Story: all 2,288 messages of dialogue, narration, hints and choices, shown as centred subtitles. The
+  English is drawn horizontally even where the original was vertical.
+- Interface: all 459 text blocks, covering item names and notes, insect names and specimen entries, kite
+  names, fishing notes, bug sumo and cage prompts, save/load and Favorites messages, Summer Memories menus,
+  settings and controls help.
+- Graphics: title menu and subtitle, settings screen, speech bubbles, plaques and buttons, fishing labels,
+  sumo result cards and move names, specimen page, radio exercise card, 8 kite book pages, 17 insect guide
+  pages (day and night), both book covers, all 98 picture diary pages, kite gauges, ending caption.
+- Text baked into the executable: the "Caught" line, win/loss marks, fortunes, the kite crash box, fish names.
+- XMB: game title, icon caption and splash text.
+- Fonts: M PLUS Rounded 1c for dialogue and menus, Patrick Hand for the diary pages.
+
+Videos and other image assets are still untranslated.
+
+## Proofreading
+
+[docs/translation-table.tsv](docs/translation-table.tsv) lists every story message with its id, speaker, source
+file and the Japanese next to the English. To fix a line, edit its id in `work/tr/<file>.txt` and send a PR or
+an issue.
+
+## Credits
+
+- Translation, review and tooling: AI-assisted (see *AI assistance and approach*).
+- Fonts: M PLUS Rounded 1c, © 2016 The Rounded M+ Project Authors, SIL OFL 1.1. Patrick Hand,
+  © 2010-2012 Patrick Wagesreiter, SIL OFL 1.1. Both under [licenses/](licenses/).
+- Code and translation text: MIT ([LICENSE](LICENSE)). That covers the tools, scripts and translation text in this repo; the game itself, its art, music and original text belong to their owners and are not included.
+
+Fan translation. Not affiliated with, sponsored by or endorsed by Sony Computer Entertainment or the
+original developers and publishers. The game, its art, music and text remain the property of their owners.
+This patch ships no game data and is useless without a legitimate copy of the original disc.
+
+Do not ask for ISOs, and do not post them here.

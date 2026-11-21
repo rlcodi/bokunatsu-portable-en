@@ -2,7 +2,7 @@ import os
 import sys,time,json,base64,re,struct
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import ppdbg
-S=os.environ.get('BNN_S','.')   # scratch/work dir (see docs/BUILDING.md)
+S=os.environ.get('BNN_S','.')   # scratch/work dir
 port=int(sys.argv[1]); rounds=int(sys.argv[2]); seq=sys.argv[3].split(',')
 T=open(S+'/bnn-table.txt',encoding='utf8').read()
 pat=re.compile(re.escape(struct.pack('<3H',T.index('テ'),T.index('ス'),T.index('ト')))+b'[\x34-\x3d]\x00')
